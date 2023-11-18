@@ -27,8 +27,8 @@ p {
 
 .container {
   margin: 0 auto;
-  padding: 20px;
-  width: 335px;
+  padding: 0 20px;
+  max-width: 375px;
 }
 
 button {
@@ -67,13 +67,13 @@ button {
 
 @media screen and (min-width: 768px) {
   .container {
-    padding: 32px;
-    width: 704px;
+    padding: 0 32px;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1136px;
+    max-width: 1200px;
   }
 }
