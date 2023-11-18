@@ -1,6 +1,7 @@
 /* ============================MOBILE=============================== */
 .components-section {
   background: var(--color-light);
+  padding-top: 72px;
 }
 .components-header {
   color: var(--color-black);
