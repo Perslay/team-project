@@ -1,4 +1,22 @@
 /* ================================================= MOBILE 👇 ========================================= */
 
 @media (max-width: 767px) {
+
+.subscribe-h2 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+     text-align: center;
+}
+
+.subscribe-p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
 }
