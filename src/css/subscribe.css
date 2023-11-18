@@ -18,6 +18,8 @@
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/subscribe/subscribe-mobile@2x.jpg);
     background-size: cover;
     height: 370px;
+    display: flex;
+    justify-content: center;
 
 }
 .subscribe-container {
@@ -84,9 +86,14 @@
     background: #FD9222;
 }
 
+
+/* klasy okna modalnego start */
+
+
+/* klasy okna modalnego stop */
+
 @media screen and (min-width: 768px) {
     .container {
-        padding: 32px;
         width: 768px;
     }
 
