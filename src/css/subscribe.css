@@ -86,6 +86,12 @@
     background: #FD9222;
 }
 
+
+/* klasy okna modalnego start */
+
+
+/* klasy okna modalnego stop */
+
 @media screen and (min-width: 768px) {
     .container {
         width: 768px;
