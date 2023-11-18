@@ -1,7 +1,9 @@
 /* ============================MOBILE=============================== */
 .components-section {
   background: var(--color-light);
-  padding-top: 72px;
+}
+.container {
+  padding: 72px 20px;
 }
 .components-header {
   color: var(--color-black);
@@ -43,11 +45,11 @@
   list-style: none;
 }
 
-.components-list-image.flip-card {
+.components-list-image {
   background-color: transparent;
   width: 335px;
   height: 270px;
-  border: 1px solid #f1f1f1;
+
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 .components-milk-chocolate {
@@ -152,6 +154,60 @@
   font-weight: 400;
   line-height: 18px; /* 128.571% */
   letter-spacing: -0.28px;
+}
+/* 2 image */
+.components-flip-card-front-milk-sweet {
+  display: flex;
+  flex-direction: column;
+  width: 335px;
+  height: 270px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-orange);
+}
+.components-description-under-image-milk-sweet {
+  color: var(--color-black);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  text-align: start;
+  padding: 0 0 28px 28px;
+  flex-shrink: 0;
+}
+
+.components-flip-card-front-milk-sweet,
+.components-flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* 3 image */
+
+.components-flip-card-front-nuts {
+  display: flex;
+  flex-direction: column;
+  width: 335px;
+  height: 270px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background-color: var(--color-dark);
+}
+
+.components-flip-card-front-nuts,
+.components-flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
 }
 /* -------------BUTTON------------ */
 
