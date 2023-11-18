@@ -87,6 +87,7 @@
 }
 
 
+
 /* klasy okna modalnego start */
 
 .subscribe-modal-container {
@@ -99,6 +100,12 @@
     /* Przykładowy kolor tła (tutaj: półprzezroczysty czarny) */
     z-index: 9999;
     /* Ustaw z-index wyższy niż inne elementy, aby zakryć całą stronę */
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .subscribe-modal {

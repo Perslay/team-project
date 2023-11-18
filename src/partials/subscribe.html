@@ -9,16 +9,18 @@
           handcrafted with the utmost care, each piece is a work of art that is sure to please.
         </p>
       </div>
-      <button class="subscribe-button">Subscribe</button>
+      <button class="subscribe-button" data-modal-open="/src/js/modal-subscribe.js">
+        Subscribe
+      </button>
     </div>
   </div>
 </section>
 
 <!-- ============ okno modalne subscribe ====================-->
 
-<div class="subscribe-modal-container visually-hidden">
+<div class="subscribe-modal-container is-hidden" data-modal="/src/js/modal-subscribe.js">
   <div class="subscribe-modal">
-    <button type="button" class="subscribe-button-close">
+    <button type="button" data-modal-close class="subscribe-button-close">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
         <path
           fill="#FFFFFF"
