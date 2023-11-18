@@ -1,18 +1,25 @@
 /* ================================================= MOBILE 👇 ========================================= */
 
-@media (max-width: 767px) {
 
 @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .subscribe {
-        background-image: url(../images/subscribe/subscribe-mobile@2x.jpg);
+        background-color: #000000;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/subscribe/subscribe-mobile@2x.jpg);
         background-size: cover;
         height: 370px;
     }
 }
 
+ .subscribe {
+    background-color: #000000;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/subscribe/subscribe-mobile@2x.jpg);
+    background-size: cover;
+    height: 370px;
+
+}
 .subscribe-container {
     display: flex;
     align-items: center;
@@ -30,7 +37,7 @@
 .subscribe-container-h2-p {
     display: flex;
     flex-direction: column;
-    max-width: 326px;
+    width: 326px;
     height: 180px;
     gap: 24px;
 }
@@ -43,7 +50,7 @@
     letter-spacing: -0.03em;
     text-align: center;
     color: #ffffff;
-    max-width: 291px;
+    width: 291px;
     height: 48px;
     margin: 0 auto;
 }
@@ -56,7 +63,7 @@
     letter-spacing: -0.02em;
     text-align: center;
     color:#ffffff;
-    max-width: 326px;
+    width: 326px;
     height: 108px;
 }
 
@@ -75,6 +82,84 @@
     border-radius: 100px;
     margin: 0 auto;
     background: #FD9222;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 32px;
+        width: 768px;
+    }
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .subscribe {
+        background-color: #000000;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/subscribe/subscribe-tablet@2x.jpg);
+        background-size: cover;
+        height: 370px;
+    }
+}
+
+        .subscribe {
+            background-color: #000000;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/subscribe/subscribe-tablet@2x.jpg);
+            background-size: cover;
+            height: 370px;
+        }
+
+
+    .subscribe-h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    height: 56px;
+}
+
+.subscribe-container {
+    justify-content: center;
+}
+
+.subscribe-container-two {
+    max-width: 467px;
+    height: 226px;
+}
+
+.subscribe-p {
+    width: 467px;
+    height: 72px;
+}
+
+.subscribe-container-h2-p {
+    width: 467px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .subscribe {
+        background-color: #000000;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/subscribe/subscribe-desktop@2x.jpg);
+        background-size: cover;
+        height: 370px;
+    }
+}
+
+.subscribe {
+    background-color: #000000;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/subscribe/subscribe-desktop@2x.jpg);
+    background-size: cover;
+    height: 370px;
 }
 
 
