@@ -2,13 +2,25 @@
 
 @media (max-width: 767px) {
 
+@media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .subscribe {
+        background-image: url(../images/subscribe/subscribe-mobile@2x.jpg);
+        background-size: cover;
+        height: 370px;
+    }
+}
+
 .subscribe-h2 {
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.03em;
-     text-align: center;
+    text-align: center;
+    color: #ffffff;
 }
 
 .subscribe-p {
@@ -18,5 +30,31 @@
     line-height: 18px;
     letter-spacing: -0.02em;
     text-align: center;
+    color:#ffffff;
+}
+
+.subscribe-button {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    min-width: 128px;
+    height: 41px;
+    border: none;
+    border-radius: 100px;
+    margin: 0 auto;
+    background: #FD9222;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
 }
 }
