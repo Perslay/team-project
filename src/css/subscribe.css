@@ -22,7 +22,7 @@
 .subscribe-container-two {
     display: flex;
     flex-direction: column;
-    width: 335px;
+    max-width: 335px;
     height: 245px;
     gap: 24px;
 }
@@ -30,7 +30,7 @@
 .subscribe-container-h2-p {
     display: flex;
     flex-direction: column;
-    width: 326px;
+    max-width: 326px;
     height: 180px;
     gap: 24px;
 }
@@ -43,7 +43,7 @@
     letter-spacing: -0.03em;
     text-align: center;
     color: #ffffff;
-    width: 291px;
+    max-width: 291px;
     height: 48px;
     margin: 0 auto;
 }
@@ -56,7 +56,7 @@
     letter-spacing: -0.02em;
     text-align: center;
     color:#ffffff;
-    width: 326px;
+    max-width: 326px;
     height: 108px;
 }
 
