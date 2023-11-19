@@ -166,7 +166,7 @@
     left: 24px;
 }
 
-.subscribe-label {
+/* .subscribe-label {
     position: fixed;
     width: 263px;
     height: 45px;
@@ -179,9 +179,23 @@
     border: 1.5px;
     overflow: hidden;
     border: 1.5px solid rgba(17, 17, 17, 0.13);
+} */
+
+.subscribe-label {
+    position: fixed;
+    top: 263px;
+    left: 24px;
+    display: flex;
+width: 263px;
+padding: 14px 18px;
+align-items: flex-start;
+gap: 40px;
+border-radius: 25px;
+border: 1.5px solid rgba(17, 17, 17, 0.05);
+box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
 }
 
-.subscribe-input {
+/*.subscribe-input {
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
@@ -191,6 +205,10 @@
 color: rgba(64, 64, 64, 0.3);
 border: none;
 
+} */
+
+.subscribe-input {
+    
 }
 
 
