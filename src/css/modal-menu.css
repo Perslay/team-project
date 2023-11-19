@@ -1,0 +1,134 @@
+.modal-menu-container {
+  background-color: var(--color-dark);
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 58.67vw;
+  height: 100vh;
+  z-index: 999;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.modal-menu-container.is-open {
+  transform: translateX(0);
+}
+
+.modal-menu-close-btn {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: var(--color-white);
+  transition-property: color right top;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-menu-close-btn:hover,
+.modal-menu-close-btn:focus {
+  color: var(--color-orange);
+  right: 14px;
+  top: 14px;
+}
+
+.modal-menu-close-icon {
+  stroke: currentColor;
+  width: 28px;
+  height: 28px;
+  transition-property: width height;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-menu-close-btn:focus > .modal-menu-close-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.mobile-menu-nav-box {
+  position: absolute;
+  left: 50px;
+  top: 136px;
+}
+
+.modal-menu-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mobile-menu-nav-list-item {
+  position: relative;
+  color: var(--color-white);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14; /* 114.286% */
+  letter-spacing: -0.02em;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu-nav-list-item:hover,
+.mobile-menu-nav-list-item:focus {
+  color: var(--color-orange);
+}
+
+.mobile-menu-underline::after {
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 1px;
+  bottom: -8px;
+  left: 0;
+  background: var(--color-orange);
+  transition-property: width;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu-underline:focus::after {
+  width: 100%;
+}
+
+.modal-menu-social-media-box {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.modal-menu-social-media-box > ul {
+  display: flex;
+  gap: 18px;
+}
+
+.modal-menu-social-link {
+  color: var(--color-white);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-menu-social-link:hover,
+.modal-menu-social-link:focus {
+  color: var(--color-orange);
+}
+
+.modal-menu-twitter-icon {
+  fill: transparent;
+  stroke: currentColor;
+  transition-property: stroke;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-menu-instagram-icon {
+  fill: transparent;
+  stroke: currentColor;
+  transition-property: stroke;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
