@@ -1,5 +1,7 @@
 .header-container {
-  padding: 0 32px;
+  padding: 0 20px;
+  width: 335px;
+  margin: 0 auto;
 }
 
 .header-navigation {
@@ -13,12 +15,14 @@
   display: flex;
   gap: 4px;
   align-items: center;
-  padding: 31px 0;
+  padding: 25px 0 19px 0;
 }
 
 .header-chocolate-icon {
   fill: transparent;
-  stroke: #fd9222;
+  stroke: var(--color-orange);
+  width: 21px;
+  height: 21px;
 }
 
 .header-nav-box > ul {
@@ -30,19 +34,30 @@
 .header-logo-text {
   color: #111;
   font-family: Montserrat;
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 20px;
-  letter-spacing: -0.54px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+}
+
+.header-simply {
+  color: #111;
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.29; /* 128.571% */
+  letter-spacing: -0.03em;
 }
 
 .header-nav-list-item {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px; /* 114.286% */
-  letter-spacing: -0.28px;
+  line-height: 1.14; /* 114.286% */
+  letter-spacing: -0.02em;
 }
 
 .header-social-media-box > ul {
@@ -64,13 +79,19 @@
 
 .header-burger-icon {
   fill: transparent;
-  stroke: #111;
+  stroke: var(--color-black);
   stroke-width: 2px;
+  width: 28px;
+  height: 28px;
 }
+
+/* ============TABLET============== */
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header-container {
     padding: 0 32px;
+    width: 704px;
+    margin: 0 auto;
   }
 
   .header-navigation {
@@ -79,10 +100,20 @@
     align-items: center;
     justify-content: space-between;
   }
+
+  .header-logo > a {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 31px 0 31px 0;
+  }
+
   .header-burger-icon {
     fill: transparent;
-    stroke: #111;
+    stroke: var(--color-black);
     stroke-width: 2.5px;
+    width: 32px;
+    height: 32px;
   }
 }
 
@@ -119,36 +150,40 @@
     gap: 18px;
   }
   .header-nav-list-item {
+    color: var(--color-black);
     white-space: nowrap;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14; /* 114.286% */
+    letter-spacing: -0.02em;
   }
   .header-navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .header-twitter-icon {
-    fill: transparent;
-    stroke: #111;
-    transition-property: stroke;
+
+  .header-social-link {
+    color: var(--color-black);
+    transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .header-twitter-icon:hover,
-  .header-twitter-icon:focus {
-    stroke: #fd9222;
+  .header-twitter-icon {
+    fill: transparent;
+    stroke: currentColor;
   }
 
   .header-instagram-icon {
     fill: transparent;
-    stroke: #111;
+    stroke: currentColor;
     transition-property: stroke;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-
-  .header-instagram-icon:hover,
-  .header-instagram-icon:focus {
-    stroke: #fd9222;
+  .header-social-link:hover,
+  .header-social-link:focus {
+    color: var(--color-orange);
   }
 }
