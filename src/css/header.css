@@ -21,6 +21,7 @@
 .header-chocolate-icon {
   fill: transparent;
   stroke: var(--color-orange);
+  stroke-width: 1.8px;
   width: 21px;
   height: 21px;
 }
@@ -32,24 +33,17 @@
 }
 
 .header-logo-text {
-  color: #111;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.29;
-  letter-spacing: -0.03em;
-}
-
-.header-simply {
-  color: #111;
-
-  font-family: Montserrat;
+  white-space: nowrap;
+  color: var(--color-black);
   font-size: 14px;
   font-style: italic;
   font-weight: 700;
-  line-height: 1.29; /* 128.571% */
+  line-height: 1.28; /* 111.111% */
   letter-spacing: -0.03em;
+}
+
+.header-chocolate {
+  font-style: normal;
 }
 
 .header-nav-list-item {
@@ -68,6 +62,7 @@
 
 .header-burger-menu {
   display: block;
+  height: 28px;
 }
 
 .header-burger-button {
@@ -75,6 +70,7 @@
   cursor: pointer;
   border: none;
   border-radius: 4px;
+  padding: 0;
 }
 
 .header-burger-icon {
@@ -90,7 +86,7 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header-container {
     padding: 0 32px;
-    width: 704px;
+    width: 768px;
     margin: 0 auto;
   }
 
@@ -108,6 +104,20 @@
     padding: 31px 0 31px 0;
   }
 
+  .header-logo-text {
+    white-space: nowrap;
+    color: var(--color-black);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.28; /* 111.111% */
+    letter-spacing: -0.03em;
+  }
+
+  .header-chocolate {
+    font-style: normal;
+  }
+
   .header-burger-icon {
     fill: transparent;
     stroke: var(--color-black);
@@ -115,17 +125,41 @@
     width: 32px;
     height: 32px;
   }
+
+  .header-chocolate-icon {
+    fill: transparent;
+    stroke: var(--color-orange);
+    stroke-width: 2px;
+    width: 21px;
+    height: 21px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .header-container {
-    width: 1136px;
+    width: 1200px;
     padding: 0 32px;
     margin: 0 auto;
   }
 
   .header-logo-text {
     white-space: nowrap;
+    color: var(--color-black);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.11; /* 111.111% */
+    letter-spacing: -0.03em;
+  }
+
+  .header-chocolate {
+    font-style: normal;
+  }
+
+  .header-chocolate-icon {
+    width: 21px;
+    height: 21px;
+    stroke-width: 2px;
   }
 
   .header-burger-menu {
@@ -173,11 +207,16 @@
   .header-twitter-icon {
     fill: transparent;
     stroke: currentColor;
+    stroke-width: 2px;
+    transition-property: stroke;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-instagram-icon {
     fill: transparent;
     stroke: currentColor;
+    stroke-width: 2px;
     transition-property: stroke;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
