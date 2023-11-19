@@ -22,9 +22,15 @@ h3,
 h4,
 h5,
 h6,
-p,
-ul {
+p {
   margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 .container {
@@ -42,12 +48,6 @@ button {
   letter-spacing: -0.03em;
   line-height: 1.2;
   text-transform: uppercase;
-}
-
-.list {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
 }
 
 .link {
