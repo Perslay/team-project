@@ -137,7 +137,6 @@
 }
 
 
-
 .subscribe-modal-background {
     width: 311px;
     height: 169px;
@@ -166,21 +165,6 @@
     left: 24px;
 }
 
-/* .subscribe-label {
-    position: fixed;
-    width: 263px;
-    height: 45px;
-    top: 273px;
-    left: 24px;
-    display: flex;
-    
-    padding: 14px, 18px, 14px, 18px;
-    border-radius: 25px;
-    border: 1.5px;
-    overflow: hidden;
-    border: 1.5px solid rgba(17, 17, 17, 0.13);
-} */
-
 .subscribe-label {
     position: fixed;
     top: 263px;
@@ -194,18 +178,6 @@ border-radius: 25px;
 border: 1.5px solid rgba(17, 17, 17, 0.05);
 box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
 }
-
-/*.subscribe-input {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: -0.02em;
-    text-align: left;
-color: rgba(64, 64, 64, 0.3);
-border: none;
-
-} */
 
 .subscribe-input {
     color: rgba(64, 64, 64, 0.30);
@@ -241,6 +213,8 @@ background: #fd9222;
 .subscribe-button-submit:hover {
 background: #FCF1E0;
 color: #FD9222;
+transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
