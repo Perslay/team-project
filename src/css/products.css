@@ -1,0 +1,126 @@
+.products-span {
+    color: var(--color-orange);
+}
+
+
+/* ================================================= MOBILE 👇 ========================================= */
+@media screen and (min-width: 375px) {
+
+    .products-section {
+        background-color: var(--color-light);
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        gap: 32px;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .products-slider-images {
+        display: flex;
+        width: 100%;
+
+    }
+
+    .products-ul {
+        width: 100%;
+        height: 100%;
+        padding: 52px 32px 53px 32px;
+        border: 1px rgba(17, 17, 17, 0.10) solid;
+        border-radius: 15px;
+        background-color: var(--color-white);
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+
+    }
+
+
+    .products-header {
+        color: var(--color-black);
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 24px;
+        word-wrap: break-word;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .products-list-li {
+        align-self: stretch;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+        display: inline-flex;
+        margin-bottom: 32px;
+
+    }
+
+    .products-title {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+        display: flex;
+    }
+
+    .products-image-header {
+        color: var(--color-black);
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 24px;
+        word-wrap: break-word;
+        margin-top: 8px;
+
+    }
+
+    .products-text {
+        color: rgba(17, 17, 17, 0.70);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        word-wrap: break-word;
+        margin-bottom: 18px;
+    }
+
+    .products-button {
+        color: var(--color-black);
+        font-size: 14px;
+        font-weight: 600;
+        padding: 8px 20px;
+        background-color: var(--color-light);
+        border-radius: 100px;
+        border: 1px rgba(17, 17, 17, 0.10) solid;
+        display: inline-flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 14px;
+
+    }
+
+    .products .swiper-pagination {
+        justify-content: center;
+        align-items: center;
+        gap: 13px;
+        display: inline-flex;
+    }
+
+}
+
+/* ================================================= TABLET 👇 ========================================= */
+@media screen and (min-width: 768px) {}
+
+/* ================================================= DESKTOP 👇 ========================================= */
+@media screen and (min-width: 1200px) {}
