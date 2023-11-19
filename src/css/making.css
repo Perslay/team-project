@@ -1,0 +1,119 @@
+.container-making {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.orange-header {
+  color: var(--color-orange);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.6px;
+  text-transform: uppercase;
+}
+
+.making-box-header {
+  display: block;
+  color: var(--color-black);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 133.333%;
+}
+
+.making-text {
+  color: var(--color-black);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 128.571%;
+  letter-spacing: -0.28px;
+}
+
+.making-list {
+  padding-inline-start: 16px;
+}
+
+.making-list-step {
+  margin-top: 18px;
+}
+
+.making-box {
+  display: flex;
+  padding: 20px 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: var(--color-white);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  margin: 40px 0 72px 0;
+}
+
+.making-box-steps {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.making-video {
+  width: 100%;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url(../images/making/making-mobile.jpg),
+    lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
+}
+
+/* ------------------------------------------TABLET---------------------------------- */
+
+@media screen and (min-width: 768px) {
+  .making-video {
+    width: 614px;
+    height: 400px;
+  }
+
+  .making-box {
+    width: 614px;
+    padding: 32px;
+    margin: 20px 0 100px 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: none;
+  }
+
+  .making-box-steps {
+    gap: 28px;
+  }
+
+  .making-list-step {
+    width: 464px;
+  }
+
+  .making-box-header {
+    width: 350px;
+  }
+}
+
+/* -----------------------------------------------DESKTOP-------------------------------------- */
+
+@media screen and (min-width: 1200px) {
+  .making-video {
+    width: 600px;
+  }
+
+  .making-box {
+    width: 516px;
+  }
+
+  .making-list-step {
+    width: 426px;
+  }
+}
