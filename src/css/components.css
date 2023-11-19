@@ -266,7 +266,7 @@
   .components-container {
     margin: 0 auto;
     width: 768px;
-    padding: 72px 32px;
+    padding: 100px 32px;
   }
   .components-all-header {
     display: flex;
