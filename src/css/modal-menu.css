@@ -4,7 +4,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  width: 58.67vw;
+  width: 220px;
   height: 100vh;
   z-index: 999;
   transform: translateX(100%);
@@ -38,12 +38,17 @@
   stroke: currentColor;
   width: 28px;
   height: 28px;
-  transition-property: width height;
+  transition-property: width, height;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-menu-close-btn:focus > .modal-menu-close-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.modal-menu-close-btn:hover > .modal-menu-close-icon {
   width: 40px;
   height: 40px;
 }
@@ -103,6 +108,7 @@
 .modal-menu-social-media-box > ul {
   display: flex;
   gap: 18px;
+  align-items: center;
 }
 
 .modal-menu-social-link {
@@ -118,17 +124,108 @@
 }
 
 .modal-menu-twitter-icon {
+  width: 20px;
+  height: 20px;
   fill: transparent;
   stroke: currentColor;
+  stroke-width: 1.5px;
   transition-property: stroke;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-menu-instagram-icon {
+  width: 22px;
+  height: 22px;
   fill: transparent;
   stroke: currentColor;
+  stroke-width: 1.5px;
   transition-property: stroke;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .modal-menu-container {
+    background-color: var(--color-dark);
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 290px;
+    height: 100vh;
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+  }
+
+  .modal-menu-close-btn {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 32px;
+    top: 24px;
+    color: var(--color-white);
+    transition-property: color right top;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .modal-menu-close-btn:hover,
+  .modal-menu-close-btn:focus {
+    color: var(--color-orange);
+    right: 28px;
+    top: 20px;
+  }
+
+  .modal-menu-close-icon {
+    stroke: currentColor;
+    width: 32px;
+    height: 32px;
+    transition-property: width, height;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .modal-menu-close-btn:focus > .modal-menu-close-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .modal-menu-close-btn:hover > .modal-menu-close-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .mobile-menu-nav-box {
+    position: absolute;
+    left: 85px;
+    top: 156px;
+  }
+  .modal-menu-social-media-box {
+    position: absolute;
+    left: 32px;
+    bottom: 24px;
+  }
+  .modal-menu-twitter-icon {
+    width: 24px;
+    height: 24px;
+    fill: transparent;
+    stroke: currentColor;
+    stroke-width: 2px;
+    transition-property: stroke;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .modal-menu-instagram-icon {
+    width: 24px;
+    height: 24px;
+    fill: transparent;
+    stroke: currentColor;
+    stroke-width: 2px;
+    transition-property: stroke;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
