@@ -88,7 +88,7 @@
 
 
 
-/* klasy okna modalnego start */
+/* ==================== klasy okna modalnego start ====================== */
 
 .subscribe-modal-container {
     position: fixed;
@@ -118,6 +118,7 @@
     height: 350px;
     background: #ffffff;
     border-radius: 15px;
+    overflow: hidden;
 }
 
 .subscribe-button-close {
@@ -142,7 +143,34 @@
     height: 169px;
     background-image: url(../images/modal-subscribe/subscribe-mobile.jpg);
 }
-/* klasy okna modalnego stop */
+
+.subscribe-explore {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.subscribe-span {
+    color: #FD9222;
+}
+
+.subscribe-explore-div {
+    width: 263px;
+        height: 48px;
+        position: fixed;
+        top: 201px;
+        left: 24px;
+}
+
+/* ===================== klasy okna modalnego stop ====================== */
+
+
+
+
+
 
 @media screen and (min-width: 768px) {
     .container {
