@@ -155,14 +155,24 @@
 
 .subscribe-span {
     color: #FD9222;
+    white-space: nowrap;
 }
 
 .subscribe-explore-div {
     width: 263px;
-        height: 48px;
-        position: fixed;
-        top: 201px;
-        left: 24px;
+    height: 48px;
+    position: fixed;
+    top: 201px;
+    left: 24px;
+}
+
+.subscribe-label {
+    position: fixed;
+    width: 263px;
+    height: 45px;
+    top: 273px;
+    left: 24px;
+    background-color: aquamarine;
 }
 
 /* ===================== klasy okna modalnego stop ====================== */
