@@ -172,8 +172,27 @@
     height: 45px;
     top: 273px;
     left: 24px;
-    background-color: aquamarine;
+    display: flex;
+    
+    padding: 14px, 18px, 14px, 18px;
+    border-radius: 25px;
+    border: 1.5px;
+    overflow: hidden;
+    border: 1.5px solid rgba(17, 17, 17, 0.13);
 }
+
+.subscribe-input {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    text-align: left;
+color: rgba(64, 64, 64, 0.3);
+border: none;
+
+}
+
 
 /* ===================== klasy okna modalnego stop ====================== */
 
