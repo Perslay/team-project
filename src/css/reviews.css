@@ -1,0 +1,51 @@
+.reviews-section {
+  background-color: var(--color-light);
+}
+
+.reviews-heading {
+  margin-bottom: 32px;
+}
+
+.reviews-accent {
+  color: var(--color-orange);
+}
+
+.reviews-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.reviews-li {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  border-radius: 15px;
+  box-shadow: 0px 9.04932px 26.57166px 0px rgba(215, 228, 249, 0.25);
+  display: flex;
+  gap: 24px;
+  max-width: 335px;
+}
+
+.review-p {
+  color: var(--color-gray);
+  max-width: 299px;
+}
+
+.reviews-slider {
+  display: flex;
+  gap: 13px;
+  margin-bottom: 32px;
+}
+
+.reviews-slide {
+  background-color: var(--color-lightgray);
+  border-radius: 50%;
+  height: 13px;
+  width: 13px;
+}
+
+.reviews-button {
+  border: 1px solid var(--color-orange);
+  border-radius: 100px;
+  padding: 12px 28px;
+}
