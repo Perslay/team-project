@@ -21,8 +21,35 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 200px;
-  height: 400px;
+  width: 311px;
+  height: 600px;
   background: #ffffff;
-  overflow: hidden;
+  overflow: auto;
+}
+
+.buy-close {
+  width: 24px;
+height: 24px;
+flex-shrink: 0;
+}
+
+.buy-button-submit {
+  position: fixed;
+  left: 24px;
+  bottom: 32px;
+  display: inline-flex;
+padding: 12px 28px;
+align-items: flex-start;
+gap: 14px;
+border-radius: 100px;
+background: #FD9222;
+Width: 109px;
+Height: 41px;
+border: 0;
+font-size: 14px;
+font-weight: 600;
+line-height: 1.21;
+letter-spacing: 0em;
+text-align: left;
+color: var(--color-white);
 }
