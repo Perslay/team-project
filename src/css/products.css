@@ -107,7 +107,15 @@
         justify-content: flex-start;
         align-items: flex-start;
         gap: 14px;
+        transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+                color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 
+    }
+
+    .products-button:hover,
+    .products-button:focus {
+        background-color: var(--color-orange);
+        color: var(--color-white);
     }
 
     .products .swiper-pagination {
@@ -115,6 +123,18 @@
         align-items: center;
         gap: 13px;
         display: inline-flex;
+    }
+
+    .hidden-mobile{
+        display: none;
+    }
+
+    .hidden-tablet {
+        display:none;
+    }
+
+    .hidden-desktop {
+        display: none;
     }
 
 }
