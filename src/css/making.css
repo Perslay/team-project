@@ -14,7 +14,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 116.667%;
-  letter-spacing: -0.72px;
+  letter-spacing: -0.03em;
   text-transform: uppercase;
 }
 
@@ -25,7 +25,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
-  letter-spacing: -0.72px;
+  letter-spacing: -0.03em;
   text-transform: uppercase;
 }
 
@@ -46,15 +46,20 @@
   font-style: normal;
   font-weight: 400;
   line-height: 128.571%;
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02em;
 }
 
 .making-list {
   padding-inline-start: 16px;
+  list-style-type: disc;
 }
 
 .making-list-step {
   margin-top: 18px;
+}
+
+.making-list-step:first-child {
+  margin-top: 20px;
 }
 
 .making-box {
@@ -65,8 +70,6 @@
   align-items: center;
   border-radius: 15px;
   background: var(--color-white);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   margin: 0 0 72px 0;
 }
 
@@ -111,6 +114,10 @@
     width: 464px;
   }
 
+  .making-list-step:first-child {
+    margin-top: 0;
+  }
+
   .making-box-header {
     width: 350px;
   }
@@ -134,6 +141,11 @@
 
   .making-list-step {
     width: 426px;
+    margin-top: 24px;
+  }
+
+  .making-list-step:first-child {
+    margin-top: 0;
   }
 
   .container-making {
