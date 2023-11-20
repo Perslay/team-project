@@ -1,0 +1,155 @@
+.container-making {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 20px;
+}
+
+.making-header {
+  color: var(--color-black);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 116.667%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.orange-header {
+  color: var(--color-orange);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.making-box-header {
+  display: block;
+  color: var(--color-black);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 133.333%;
+}
+
+.making-text {
+  color: var(--color-black);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 128.571%;
+  letter-spacing: -0.02em;
+}
+
+.making-list {
+  padding-inline-start: 16px;
+  list-style-type: disc;
+}
+
+.making-list-step {
+  margin-top: 18px;
+}
+
+.making-list-step:first-child {
+  margin-top: 20px;
+}
+
+.making-box {
+  display: flex;
+  padding: 20px 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: var(--color-white);
+  margin: 0 0 72px 0;
+}
+
+.making-box-steps {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.making-video {
+  width: 100%;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url(../images/making/making-mobile.jpg),
+    lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
+}
+
+/* ------------------------------------------TABLET---------------------------------- */
+
+@media screen and (min-width: 768px) {
+  .making-video {
+    width: 614px;
+    height: 400px;
+  }
+
+  .making-box {
+    width: 614px;
+    padding: 32px;
+    margin: 0 0 100px 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: none;
+  }
+
+  .making-box-steps {
+    gap: 28px;
+  }
+
+  .making-list-step {
+    width: 464px;
+  }
+
+  .making-list-step:first-child {
+    margin-top: 0;
+  }
+
+  .making-box-header {
+    width: 350px;
+  }
+
+  .container-making {
+    margin-top: 50px;
+  }
+}
+
+/* -----------------------------------------------DESKTOP-------------------------------------- */
+
+@media screen and (min-width: 1200px) {
+  .making-video {
+    width: 600px;
+  }
+
+  .making-box {
+    width: 516px;
+    margin: 0;
+  }
+
+  .making-list-step {
+    width: 426px;
+    margin-top: 24px;
+  }
+
+  .making-list-step:first-child {
+    margin-top: 0;
+  }
+
+  .container-making {
+    margin-top: 50px;
+    margin-bottom: 128px;
+  }
+}

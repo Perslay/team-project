@@ -1,0 +1,228 @@
+.header-container {
+  padding: 0 20px;
+  width: 335px;
+  margin: 0 auto;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.header-logo > a {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  padding: 25px 0 19px 0;
+}
+
+.header-chocolate-icon {
+  fill: transparent;
+  stroke: var(--color-orange);
+  stroke-width: 1.8px;
+  width: 21px;
+  height: 21px;
+}
+
+.header-nav-box > ul {
+  display: flex;
+  gap: 24px;
+  display: none;
+}
+
+.header-logo-text {
+  white-space: nowrap;
+  color: var(--color-black);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.28; /* 111.111% */
+  letter-spacing: -0.03em;
+}
+
+.header-chocolate {
+  font-style: normal;
+}
+
+.header-nav-list-item {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14; /* 114.286% */
+  letter-spacing: -0.02em;
+}
+
+.header-social-media-box > ul {
+  display: flex;
+  gap: 18px;
+  display: none;
+}
+
+.header-burger-menu {
+  display: block;
+  height: 28px;
+}
+
+.header-burger-button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 0;
+}
+
+.header-burger-icon {
+  fill: transparent;
+  stroke: var(--color-black);
+  stroke-width: 2px;
+  width: 28px;
+  height: 28px;
+}
+
+/* ============TABLET============== */
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header-container {
+    padding: 0 32px;
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  .header-navigation {
+    max-width: 704px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-logo > a {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 31px 0 31px 0;
+  }
+
+  .header-logo-text {
+    white-space: nowrap;
+    color: var(--color-black);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.28; /* 111.111% */
+    letter-spacing: -0.03em;
+  }
+
+  .header-chocolate {
+    font-style: normal;
+  }
+
+  .header-burger-icon {
+    fill: transparent;
+    stroke: var(--color-black);
+    stroke-width: 2.5px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .header-chocolate-icon {
+    fill: transparent;
+    stroke: var(--color-orange);
+    stroke-width: 2px;
+    width: 21px;
+    height: 21px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header-container {
+    width: 1200px;
+    padding: 0 32px;
+    margin: 0 auto;
+  }
+
+  .header-logo-text {
+    white-space: nowrap;
+    color: var(--color-black);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.11; /* 111.111% */
+    letter-spacing: -0.03em;
+  }
+
+  .header-chocolate {
+    font-style: normal;
+  }
+
+  .header-chocolate-icon {
+    width: 21px;
+    height: 21px;
+    stroke-width: 2px;
+  }
+
+  .header-burger-menu {
+    display: none;
+  }
+
+  .header-nav-box {
+    margin-left: 188px;
+  }
+
+  .header-nav-box > ul {
+    display: flex;
+    gap: 24px;
+  }
+
+  .header-social-media-box {
+    margin-left: 137px;
+  }
+
+  .header-social-media-box > ul {
+    display: flex;
+    gap: 18px;
+  }
+  .header-nav-list-item {
+    color: var(--color-black);
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14; /* 114.286% */
+    letter-spacing: -0.02em;
+  }
+  .header-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-social-link {
+    color: var(--color-black);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-twitter-icon {
+    fill: transparent;
+    stroke: currentColor;
+    stroke-width: 2px;
+    transition-property: stroke;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-instagram-icon {
+    fill: transparent;
+    stroke: currentColor;
+    stroke-width: 2px;
+    transition-property: stroke;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-social-link:hover,
+  .header-social-link:focus {
+    color: var(--color-orange);
+  }
+}
