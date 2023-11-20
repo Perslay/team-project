@@ -1,0 +1,99 @@
+.dark-bg {
+  margin: 0 auto;
+  display: block;
+  background: var(--color-dark);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advanteges-card-set {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+.advantages-card {
+  max-width: 336px;
+  text-align: center;
+  align-items: center;
+  flex-basis: calc((100% - 20px) / 1);
+}
+
+.advantages-box {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 308px;
+}
+
+.advantages-header {
+  color: var(--color-white);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+  margin: 22px 0 18px;
+}
+
+.advantages-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.advantages-icons {
+  width: 62px;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 365px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* ------------------------------------------TABLET---------------------------------- */
+
+@media screen and (min-width: 768px) {
+  .advanteges-card-set {
+    justify-content: flex-start;
+  }
+
+  .container-advanteges {
+    padding: 50px 32px;
+  }
+}
+
+/* -----------------------------------------------DESKTOP-------------------------------------- */
+
+@media screen and (min-width: 1200px) {
+  .advanteges-card-set {
+    justify-content: center;
+  }
+
+  .advantages-card {
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .advantages-card:last-child {
+    border: none;
+  }
+}
