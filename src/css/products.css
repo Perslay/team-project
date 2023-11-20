@@ -30,8 +30,6 @@
     }
 
     .products-ul {
-
-
         display: inline-flex;
         flex-direction: column;
         justify-content: center;
@@ -148,106 +146,42 @@
 /* ================================================= TABLET 👇 ========================================= */
 @media screen and (min-width: 768px) {
 
-        
+    .products {
+        padding-right: 0;
+    }
+
+    .products-header {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
     .products-ul {
         flex-direction: row;
-
-        
-            }
-        
-        
-            .products-header {
-                color: var(--color-black);
-                font-size: 20px;
-                font-weight: 600;
-                text-transform: uppercase;
-                line-height: 24px;
-                word-wrap: break-word;
-                text-align: center;
-            }
-        
-            .products-list-li {
-
-            }
-        
-            .products-title {
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap: 2px;
-                display: flex;
-            }
-        
-            .products-image-header {
-                color: var(--color-black);
-                font-size: 18px;
-                font-weight: 600;
-                text-transform: uppercase;
-                line-height: 24px;
-                word-wrap: break-word;
-                margin-top: 8px;
-        
-            }
-        
-            .products-text {
-                color: rgba(17, 17, 17, 0.70);
-                font-size: 12px;
-                font-weight: 400;
-                line-height: 14px;
-                word-wrap: break-word;
-                margin-bottom: 18px;
-            }
-        
-            .products-button {
-                color: var(--color-black);
-                font-size: 14px;
-                font-weight: 600;
-                padding: 8px 20px;
-                background-color: var(--color-light);
-                border-radius: 100px;
-                border: 1px rgba(17, 17, 17, 0.10) solid;
+        justify-content: flex-start;
+        gap: 18px;
+        position: relative;
+        }
+            
+    .products-list-li {
+        padding: 32px 20px;
+        }
+               
+    .hidden-mobile {
                 display: inline-flex;
-                justify-content: flex-start;
-                align-items: flex-start;
-                gap: 14px;
-                transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-                    color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-        
-            }
-        
-            .products-button:hover,
-            .products-button:focus {
-                background-color: var(--color-orange);
-                color: var(--color-white);
-            }
-        
-            .product-dot-active {
-                background-color: var(--color-orange);
-                width: 28px;
-                height: 13px;
-            }
-        
-            .product-dot {
-                background-color: var(--color-lightgray);
-                width: 13px;
-                height: 13px;
-            }
-        
-        
-            .hidden-mobile {
-                display: inline-flex;
-            }
-        
-            .hidden-tablet {
-                display: none;
-            }
-        
-            .hidden-desktop {
-                display: none;
             }
         
         }
 
 
 /* ================================================= DESKTOP 👇 ========================================= */
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+
+    .products-header{
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .hidden-tablet {
+        display: inline-flex;
+    }
+}
