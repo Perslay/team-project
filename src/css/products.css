@@ -31,7 +31,6 @@
 
     .products-ul {
         display: inline-flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -117,7 +116,7 @@
         color: var(--color-white);
     }
 
-    .product-dot-active {
+    /*.product-dot-active {
         background-color: var(--color-orange);
         width: 28px;
         height: 13px;
@@ -140,6 +139,8 @@
     .hidden-desktop {
         display: none;
     }
+    
+    */
 
 }
 
@@ -166,11 +167,12 @@
         padding: 32px 20px;
         }
                
-    .hidden-mobile {
+    /*.hidden-mobile {
                 display: inline-flex;
             }
         
         }
+        */
 
 
 /* ================================================= DESKTOP 👇 ========================================= */
@@ -181,7 +183,8 @@
         line-height: 28px;
     }
 
-    .hidden-tablet {
+    /*.hidden-tablet {
         display: inline-flex;
     }
+    */
 }
