@@ -80,3 +80,39 @@ text-transform: uppercase;
 .buy-span {
   color: var(--color-orange);
 }
+
+.buy-schoco {
+position: absolute;
+width: 263px;
+height: 85px;
+top: 88px;
+left: 24px;
+padding: 8px 16px;
+border-radius: 15px;
+border: 1px solid #1111111A;
+background: var(--color-white);
+}
+
+.buy-schoco-cont {
+display: flex;
+align-items: center;
+gap: 77px;
+width: 231px;
+height: 69px;
+}
+
+.buy-schoco-cont-one {
+width: 84px;
+height: 69px;
+background: url(/src/images/modal-buy/buy-1-mobile.jpg);
+background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+    .buy-schoco-cont-one {
+        background-image: url(/src/images/modal-buy/buy-1-mobile@2x.jpg);
+    }
+}    
