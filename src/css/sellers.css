@@ -23,11 +23,11 @@
 .sellers-img {
     border-radius: 15px;
 }
-.sellers-p-div {
+.sellers-p-div-1, .sellers-p-div-2 {
     width: 306px;
     
 }
-.sellers-minitext{
+.sellers-minitext-1, .sellers-minitext-2{
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -45,6 +45,7 @@
     font-size: 14px;
     font-weight: 600;
     padding: 12px 28px;
+
     background-color: var(--color-orange);
     border: none;
     transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
@@ -92,14 +93,15 @@
     gap: 16px;
     padding-bottom: 31px;
 }
-.sellers-p-div {
+.sellers-p-div-2 {
     width: 407px;
 }
 .sellers-text-button {
    display: flex; 
-   justify-content: space-between;
+   justify-content: center;
    align-items: flex-start;
    padding-bottom: 72px;
+   gap: 177px;
 }
 .sellers-button-div {
     padding-bottom: 0px;
@@ -107,5 +109,27 @@
 }
 /*--------------------------------------------------------DESKTOP-----------------------------------------------*/
 @media screen and (min-width: 1200px) {
-
+.mobile-sellers {
+    display: none;
+}
+.tab-sellers {
+    display: none;
+}
+.desktop-sellers {
+    display: flex;
+}
+.sellers-div {
+    padding-bottom: 128px;
+}
+.sellers-text-button {
+    display: flex;
+    gap: 616px;
+}
+.sellers-p-div-2 {
+    display: flex;
+    
+}
+.sellers-minitext-2 {
+    display: flex;
+}
 }
