@@ -11,28 +11,64 @@
       </h2>
       <form class="modal-review-form">
         <div class="modal-review-form-row">
-          <input class="modal-review-field" type="text" id="name" name="name" placeholder="" />
-          <label class="modal-review-label" for="name">Name</label>
+          <input
+            class="modal-review-field"
+            type="text"
+            id="review-name"
+            name="review-name"
+            placeholder=""
+            required
+            pattern="[a-zA-Z]*"
+            title="Letters only"
+          />
+          <label class="modal-review-label" for="review-name">Name</label>
         </div>
         <div class="modal-review-form-row">
-          <input class="modal-review-field" type="email" id="email" name="email" placeholder="" />
-          <label class="modal-review-label" for="email">Enter your email</label>
+          <input
+            class="modal-review-field"
+            type="email"
+            id="review-email"
+            name="review-email"
+            placeholder=""
+            required
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+            title="Invalid email name"
+          />
+          <label class="modal-review-label" for="review-email">Enter your email</label>
         </div>
-        <div class="modal-review-form-row">
-          <input class="modal-review-field" type="tel" id="phone" name="phone" placeholder="" />
-          <label class="modal-review-label" for="phone">Phone number</label>
+        <div class="modal-review-form-row modal-review-phone">
+          <input
+            class="modal-review-field"
+            type="tel"
+            id="review-phone"
+            name="review-phone"
+            placeholder=""
+            required
+            pattern="[0-9]{9}"
+            title="Must be 9 digits"
+          />
+          <label class="modal-review-label" for="review-phone">Phone number</label>
+          <div class="review-phone-left">
+            <svg class="flag-icon" width="24" height="24">
+              <use href="images/icons.svg#icon-flag" />
+            </svg>
+            <p class="review-phone-p">+380</p>
+          </div>
         </div>
         <div class="modal-review-form-row">
           <textarea
-            class="modal-review-field"
+            class="modal-review-field modal-review-textarea"
             name="opinion"
             id="opinion"
             rows="4"
             placeholder=""
+            required
           ></textarea>
           <label class="modal-review-label" for="opinion">Enter text</label>
         </div>
-        <button class="modal-review-button" type="submit">Send</button>
+        <div class="modal-review-form-row">
+          <button class="modal-review-button" type="submit">Send</button>
+        </div>
       </form>
     </div>
   </div>
