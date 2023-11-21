@@ -15,7 +15,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 1.2; /* 120% */
+    line-height: 1.2em; /* 120% */
     letter-spacing: -0.0375em;
     text-transform: uppercase;
     padding: 0 46px;
@@ -152,7 +152,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: -0.54px;
+    letter-spacing: -0.03em;
     text-transform: uppercase;
   }
 
@@ -167,8 +167,8 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px; /* 128.571% */
-    letter-spacing: -0.28px;
+    line-height: 1.29; /* 128.571% */
+    letter-spacing: -0.02em;
   }
   /* 2 image */
   .components-flip-card-front-milk-sweet {
@@ -186,8 +186,8 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    line-height: 18px; /* 128.571% */
-    letter-spacing: -0.28px;
+    line-height: 1.29; /* 128.571% */
+    letter-spacing: -0.02em;
     text-transform: uppercase;
     text-align: start;
     padding: 0 0 25px 28px;
@@ -240,7 +240,7 @@
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
-    line-height: 12px; /* 120% */
+    line-height: 1.2em; /* 120% */
     padding: 6px 16px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -282,8 +282,8 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px; /* 116.667% */
-    letter-spacing: -0.72px;
+    line-height: 1.166em; /* 116.667% */
+    letter-spacing: -0.03em;
     text-transform: uppercase;
     width: 411px;
   }
@@ -299,8 +299,8 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px; /* 128.571% */
-    letter-spacing: -0.28px;
+    line-height: 1.285em; /* 128.571% */
+    letter-spacing: -0.02em;
   }
 
   .components-ul {
@@ -409,8 +409,8 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    line-height: 18px; /* 128.571% */
-    letter-spacing: -0.28px;
+    line-height: 1.285em; /* 128.571% */
+    letter-spacing: -0.02em;
     text-transform: uppercase;
     text-align: start;
     padding: 0 0 25px 28px;
@@ -424,7 +424,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: -0.54px;
+    letter-spacing: -0.03em;
     text-transform: uppercase;
   }
 
@@ -440,7 +440,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 18px; /* 128.571% */
-    letter-spacing: -0.28px;
+    letter-spacing: -0.02em;
   }
   /* 2 image */
   .components-flip-card-front-milk-sweet {
@@ -458,8 +458,8 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    line-height: 18px; /* 128.571% */
-    letter-spacing: -0.28px;
+    line-height: 1.285em; /* 128.571% */
+    letter-spacing: -0.02em;
     text-transform: uppercase;
     text-align: start;
     padding: 0 0 25px 28px;
@@ -512,7 +512,7 @@
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
-    line-height: 12px; /* 120% */
+    line-height: 1.2em; /* 120% */
     padding: 6px 16px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -555,8 +555,8 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px; /* 116.667% */
-    letter-spacing: -0.72px;
+    line-height: 1.166em; /* 116.667% */
+    letter-spacing: -0.03em;
     text-transform: uppercase;
     width: 411px;
   }
@@ -572,8 +572,8 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px; /* 128.571% */
-    letter-spacing: -0.28px;
+    line-height: 1.285em; /* 128.571% */
+    letter-spacing: -0.02em;
   }
 
   .components-ul {
@@ -677,8 +677,8 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    line-height: 18px; /* 128.571% */
-    letter-spacing: -0.28px;
+    line-height: 1.285em; /* 128.571% */
+    letter-spacing: -0.02em;
     text-transform: uppercase;
     text-align: start;
     padding: 0 0 28px 28px;
@@ -692,7 +692,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: -0.54px;
+    letter-spacing: -0.03em;
     text-transform: uppercase;
   }
 
@@ -707,8 +707,8 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px; /* 128.571% */
-    letter-spacing: -0.28px;
+    line-height: 1.285em; /* 128.571% */
+    letter-spacing: -0.02em;
   }
   .components-hidden-paragraph-seet-desktop {
     height: 140px;
@@ -729,8 +729,8 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    line-height: 18px; /* 128.571% */
-    letter-spacing: -0.28px;
+    line-height: 1.285em; /* 128.571% */
+    letter-spacing: -0.02em;
     text-transform: uppercase;
     text-align: start;
     padding: 0 0 25px 28px;
@@ -783,7 +783,7 @@
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
-    line-height: 12px; /* 120% */
+    line-height: 1.2em; /* 120% */
     padding: 6px 16px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
