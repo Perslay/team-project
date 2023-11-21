@@ -127,7 +127,7 @@
   }
 
   .components-link {
-    padding: 28 55 25 55;
+    padding: 28 55 25 56;
     flex-shrink: 0;
   }
 
@@ -399,7 +399,7 @@
   }
 
   .components-link {
-    padding: 28 55 25 55;
+    padding: 28 56 25 56;
     flex-shrink: 0;
   }
 
@@ -669,7 +669,6 @@
 
   .components-link {
     padding: 28 36 36 28;
-    flex-shrink: 0;
   }
 
   .components-description-under-image {
