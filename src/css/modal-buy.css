@@ -23,14 +23,22 @@
   transform: translate(-50%, -50%) scale(1);
   width: 311px;
   height: 600px;
-  background: #ffffff;
   overflow: auto;
+  border-radius: 15px;
+background: var(--color-light)
 }
 
 .buy-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
   width: 24px;
 height: 24px;
 flex-shrink: 0;
+display: flex;
+padding: 0;
+border: 0;
+background: transparent;
 }
 
 .buy-button-submit {
@@ -52,4 +60,23 @@ line-height: 1.21;
 letter-spacing: 0em;
 text-align: left;
 color: var(--color-white);
+}
+
+.buy-now {
+position: absolute;
+width: 102px;
+height: 24px;
+top: 32px;
+left: 104px;
+color: var(--color-black);
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.2;
+letter-spacing: -0.6px;
+text-transform: uppercase;
+}
+
+.buy-span {
+  color: var(--color-orange);
 }
