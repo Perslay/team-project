@@ -126,6 +126,7 @@
         width: 13px;
         height: 13px;
                 }
+                */
 
 
     .hidden-mobile{
@@ -140,7 +141,7 @@
         display: none;
     }
     
-    */
+    
 
 }
 
@@ -167,10 +168,10 @@
         padding: 32px 20px;
         }
                
-    /*.hidden-mobile {
+    .hidden-mobile {
                 display: inline-flex;
             }
-        */
+        
         }
 
 
@@ -183,8 +184,8 @@
         line-height: 28px;
     }
 
-    /*.hidden-tablet {
+    .hidden-tablet {
         display: inline-flex;
     }
-    */
+    
 }
