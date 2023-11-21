@@ -115,4 +115,21 @@ background-size: cover;
     .buy-schoco-cont-one {
         background-image: url(/src/images/modal-buy/buy-1-mobile@2x.jpg);
     }
-}    
+}
+
+.buy-grams {
+  display: flex;
+justify-content: center;
+align-items: center;
+gap: 14px;
+border-radius: 100px;
+border: 1px solid rgba(17, 17, 17, 0.10);
+background: var(--color-light);
+color: var(--color-black);
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 70px;
+height: 29px;
+}
