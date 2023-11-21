@@ -5,7 +5,7 @@ const swiper = new Swiper('.products-js-slider', {
         el: '.products-js-pagination',
         clickable: true,
     },
-    breapoints: {
+    breakpoints: {
         375: {
             slidesPerView: 1,
         },
