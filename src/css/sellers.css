@@ -56,11 +56,15 @@
     background-color: var(--color-lightorange);
     color: var(--color-orange);
 }
-.tab {
+.tab-sellers {
     display: none;
 }
-.desktop {
+.desktop-sellers {
     display: none;
+}
+.sellers-text-button {
+    display: flex;
+    justify-content: center;
 }
 }
 /*--------------------------------------------------------TABLET-----------------------------------------------*/
