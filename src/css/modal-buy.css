@@ -257,6 +257,7 @@ letter-spacing: -0.28px;
 .buy-input::placeholder {
   color: #4040404D;
 }
+
 .buy-phone {
   display: flex;
 width: 74px;
