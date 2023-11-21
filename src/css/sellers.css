@@ -13,7 +13,6 @@
 .sellers-span {
     color: rgba(253, 146, 34, 1);
 }
-}
 .sellers-list {
     display: flex;
     align-items: center;
@@ -28,15 +27,13 @@
     width: 306px;
     
 }
-.sellers-minitext {
+.sellers-minitext{
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.02em;
     line-height: 1.28;
     color: rgba(17, 17, 17, 1);
 }
-
-
 .sellers-button-div {
     display: flex;
     justify-content: center;
@@ -59,9 +56,50 @@
     background-color: var(--color-lightorange);
     color: var(--color-orange);
 }
+.tab {
+    display: none;
+}
+.desktop {
+    display: none;
+}
+}
 /*--------------------------------------------------------TABLET-----------------------------------------------*/
 @media screen and (min-width: 768px) {
-
+.mobile-sellers {
+    display: none;
+}
+.tab-sellers {
+    display: flex;
+}
+.desktop-sellers {
+    display: none;
+}
+.sellers-div {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 100px;
+}
+.sellers-title {
+    padding-bottom: 64px;
+}
+.sellers-list {
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    padding-bottom: 31px;
+}
+.sellers-p-div {
+    width: 407px;
+}
+.sellers-text-button {
+   display: flex; 
+   justify-content: space-between;
+   align-items: flex-start;
+   padding-bottom: 72px;
+}
+.sellers-button-div {
+    padding-bottom: 0px;
+}
 }
 /*--------------------------------------------------------DESKTOP-----------------------------------------------*/
 @media screen and (min-width: 1200px) {
