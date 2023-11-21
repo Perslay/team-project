@@ -1,0 +1,258 @@
+.backdrop-buy {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.buy-window {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 311px;
+  height: 994px;
+  overflow: auto;
+  border-radius: 15px;
+background: var(--color-light)
+}
+
+.buy-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 24px;
+height: 24px;
+flex-shrink: 0;
+display: flex;
+padding: 0;
+border: 0;
+background: transparent;
+}
+
+.buy-button-submit {
+  position: fixed;
+  left: 24px;
+  bottom: 32px;
+  display: inline-flex;
+padding: 12px 28px;
+align-items: flex-start;
+gap: 14px;
+border-radius: 100px;
+background: #FD9222;
+Width: 109px;
+Height: 41px;
+border: 0;
+font-size: 14px;
+font-weight: 600;
+line-height: 1.21;
+letter-spacing: 0em;
+text-align: left;
+color: var(--color-white);
+}
+
+.buy-now {
+position: absolute;
+width: 102px;
+height: 24px;
+top: 32px;
+left: 104px;
+color: var(--color-black);
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.2;
+letter-spacing: -0.6px;
+text-transform: uppercase;
+}
+
+.buy-span {
+  color: var(--color-orange);
+}
+
+.buy-schoco {
+position: absolute;
+width: 263px;
+height: 85px;
+top: 88px;
+left: 24px;
+padding: 8px 16px;
+border-radius: 15px;
+border: 1px solid #1111111A;
+background: var(--color-white);
+}
+
+.buy-schoco-cont {
+display: flex;
+align-items: center;
+gap: 77px;
+width: 231px;
+height: 69px;
+}
+
+.buy-schoco-cont-one {
+width: 84px;
+height: 69px;
+background: url(/src/images/modal-buy/buy-1-mobile.jpg);
+background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+    .buy-schoco-cont-one {
+        background-image: url(/src/images/modal-buy/buy-1-mobile@2x.jpg);
+    }
+}
+
+.buy-grams {
+  display: flex;
+justify-content: center;
+align-items: center;
+gap: 14px;
+border-radius: 100px;
+border: 1px solid rgba(17, 17, 17, 0.10);
+background: var(--color-light);
+color: var(--color-black);
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 70px;
+height: 29px;
+}
+
+.buy-schoco-two {
+position: absolute;
+width: 263px;
+height: 85px;
+top: 181px;
+left: 24px;
+padding: 8px 16px;
+border-radius: 15px;
+border: 1px solid #1111111A;
+background: var(--color-white);
+}
+
+.buy-schoco-three {
+position: absolute;
+width: 263px;
+height: 85px;
+top: 274px;
+left: 24px;
+padding: 8px 16px;
+border-radius: 15px;
+border: 1px solid #1111111A;
+background: var(--color-white);
+}
+
+.buy-schoco-cont-two {
+  width: 84px;
+  height: 69px;
+  background: url(/src/images/modal-buy/buy-2-mobile.jpg);
+  background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+.buy-schoco-cont-two {
+  background-image: url(/src/images/modal-buy/buy-2-mobile@2x.jpg);
+}
+}
+
+
+.buy-schoco-cont-three {
+  width: 84px;
+  height: 69px;
+  background: url(/src/images/modal-buy/buy-3-mobile.jpg);
+  background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+.buy-schoco-cont-three {
+  background-image: url(/src/images/modal-buy/buy-3-mobile@2x.jpg);
+}
+}
+
+.buy-form {
+  display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 18px;
+top: 391px;
+left: 24px;
+position: absolute;
+}
+
+.buy-form-label-one {
+color: var(--color-black);
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.16;
+letter-spacing: -0.24px;
+}
+
+.buy-inp-div {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 14px;
+}
+
+.buy-input-div {
+  display: flex;
+width: 263px;
+padding: 14px 18px;
+align-items: flex-start;
+gap: 40px;
+border-radius: 8px;
+border: 1.5px solid rgba(17, 17, 17, 0.05);
+box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
+}
+
+.buy-p-inf {
+  display: flex;
+width: 263px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+
+.buy-input {
+  display: flex;
+align-items: center;
+gap: 21.78px;
+flex: 1 0 0;
+align-self: stretch;
+background-color: transparent;
+outline: transparent;
+border: none;
+color: rgba(64, 64, 64, 0.30);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.28px;
+}
+
+.buy-input::placeholder {
+  color: #4040404D;
+}

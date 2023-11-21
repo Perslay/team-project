@@ -1,0 +1,75 @@
+<div class="backdrop-review is-hidden" data-modal-review="/src/js/modal-review.js">
+  <div class="review-window">
+    <div>
+      <button class="review-close" type="button" data-modal-review-close>
+        <svg class="review-close-icon" width="28" height="28">
+          <use href="images/icons.svg#icon-close" />
+        </svg>
+      </button>
+      <h2 class="second-heading modal-review-heading">
+        leave a review about <span class="modal-review-accent">our chocolate</span>
+      </h2>
+      <form class="modal-review-form">
+        <div class="modal-review-form-row">
+          <input
+            class="modal-review-field"
+            type="text"
+            id="review-name"
+            name="review-name"
+            placeholder="Name"
+            required
+            pattern="[a-zA-Z]*"
+            title="Letters only"
+          />
+          <label class="modal-review-label" for="review-name"></label>
+        </div>
+        <div class="modal-review-form-row">
+          <input
+            class="modal-review-field"
+            type="email"
+            id="review-email"
+            name="review-email"
+            placeholder="Enter your email"
+            required
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+            title="Invalid email name"
+          />
+          <label class="modal-review-label" for="review-email"></label>
+        </div>
+        <div class="modal-review-form-row modal-review-phone">
+          <input
+            class="modal-review-field"
+            type="tel"
+            id="review-phone"
+            name="review-phone"
+            placeholder="Phone number"
+            required
+            pattern="[0-9]{9}"
+            title="Must be 9 digits"
+          />
+          <label class="modal-review-label" for="review-phone"></label>
+          <div class="review-phone-left">
+            <svg class="flag-icon" width="32" height="32">
+              <use href="images/icons.svg#icon-flag" />
+            </svg>
+            <p class="review-phone-p">+380</p>
+          </div>
+        </div>
+        <div class="modal-review-form-row">
+          <textarea
+            class="modal-review-field modal-review-textarea"
+            name="opinion"
+            id="opinion"
+            rows="4"
+            placeholder="Enter text"
+            required
+          ></textarea>
+          <label class="modal-review-label" for="opinion"></label>
+        </div>
+        <div class="modal-review-form-row">
+          <button class="modal-review-button" type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
