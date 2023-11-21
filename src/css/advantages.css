@@ -5,7 +5,9 @@
 }
 
 .container-advanteges {
+  margin: 0 auto;
   padding: 20px;
+  max-width: 375px;
 }
 .visually-hidden {
   position: absolute;
@@ -74,11 +76,20 @@
 @media screen and (min-width: 768px) {
   .advanteges-card-set {
     justify-content: flex-start;
-    gap: 32px;
+    gap: 32px 60px;
+  }
+
+  .advantages-card {
+    max-width: 308px;
+  }
+
+  .advantages-card:last-child {
+    padding-bottom: 35px;
   }
 
   .container-advanteges {
     padding: 50px 32px;
+    max-width: 768px;
   }
 }
 
@@ -90,6 +101,10 @@
     gap: 70px;
   }
 
+  .advantages-card {
+    max-width: 326px;
+  }
+
   .line::after {
     content: '';
     position: absolute;
@@ -98,5 +113,14 @@
     height: 124px;
     top: 60px;
     left: 100%;
+  }
+
+  .container-advanteges {
+    padding: 50px 0;
+    max-width: 1200px;
+  }
+
+  .dark-bg {
+    height: 344px;
   }
 }
