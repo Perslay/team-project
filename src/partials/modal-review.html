@@ -1,6 +1,39 @@
 <div class="backdrop-review is-hidden" data-modal-review="/src/js/modal-review.js">
   <div class="review-window">
-    <button class="review-close" type="button" data-modal-review-close></button>
-    Okno modalne REVIEW
+    <div>
+      <button class="review-close" type="button" data-modal-review-close>
+        <svg class="review-close-icon" width="28" height="28">
+          <use href="images/icons.svg#icon-close" />
+        </svg>
+      </button>
+      <h2 class="second-heading modal-review-heading">
+        leave a review about <span class="modal-review-accent">our chocolate</span>
+      </h2>
+      <form class="modal-review-form">
+        <div class="modal-review-form-row">
+          <input class="modal-review-field" type="text" id="name" name="name" placeholder="" />
+          <label class="modal-review-label" for="name">Name</label>
+        </div>
+        <div class="modal-review-form-row">
+          <input class="modal-review-field" type="email" id="email" name="email" placeholder="" />
+          <label class="modal-review-label" for="email">Enter your email</label>
+        </div>
+        <div class="modal-review-form-row">
+          <input class="modal-review-field" type="tel" id="phone" name="phone" placeholder="" />
+          <label class="modal-review-label" for="phone">Phone number</label>
+        </div>
+        <div class="modal-review-form-row">
+          <textarea
+            class="modal-review-field"
+            name="opinion"
+            id="opinion"
+            rows="4"
+            placeholder=""
+          ></textarea>
+          <label class="modal-review-label" for="opinion">Enter text</label>
+        </div>
+        <button class="modal-review-button" type="submit">Send</button>
+      </form>
+    </div>
   </div>
 </div>
