@@ -31,10 +31,9 @@
 
     .products-ul {
         display: inline-flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         text-align: center;
-        overflow: hidden;
 
     }
 
@@ -44,7 +43,7 @@
         font-size: 20px;
         font-weight: 600;
         text-transform: uppercase;
-        line-height: 24px;
+        line-height: 1,2;
         word-wrap: break-word;
         text-align: center;
     }
@@ -78,9 +77,8 @@
         font-size: 18px;
         font-weight: 600;
         text-transform: uppercase;
-        line-height: 24px;
+        line-height: 1.33;
         word-wrap: break-word;
-        margin-top: 8px;
 
     }
 
@@ -88,9 +86,9 @@
         color: rgba(17, 17, 17, 0.70);
         font-size: 12px;
         font-weight: 400;
-        line-height: 14px;
+        line-height: 1.17;
         word-wrap: break-word;
-        margin-bottom: 18px;
+        margin-bottom: 16px;
     }
 
     .products-button {
@@ -116,32 +114,28 @@
         color: var(--color-white);
     }
 
-    /*.product-dot-active {
+
+
+    .swiper-pagination {
+        margin: 32px 0 100px 0;
+    }
+
+    .swiper-pagination-bullet {
+        background-color: rgba(17, 17, 17, 0.10);
+        width: 13px;
+        height: 13px;
+        transition: border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1), width 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-radius 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .swiper-pagination-bullet-active {
         background-color: var(--color-orange);
         width: 28px;
         height: 13px;
-    }
-    .product-dot {
-        background-color: var(--color-lightgray);
-        width: 13px;
-        height: 13px;
+        border-radius: 100px;
+        opacity: 1;
+        transform: none;
                 }
-                */
-
-
-    .hidden-mobile{
-        display: none;
-    }
-
-    .hidden-tablet {
-        display:none;
-    }
-
-    .hidden-desktop {
-        display: none;
-    }
-    
-    
+   
 
 }
 
@@ -150,11 +144,13 @@
 
     .products {
         padding-right: 0;
+        padding-left: 33px;
+        padding-bottom: 100px;
     }
 
     .products-header {
         font-size: 24px;
-        line-height: 28px;
+        line-height: 1.17;
     }
 
     .products-ul {
@@ -168,9 +164,6 @@
         padding: 32px 20px;
         }
                
-    .hidden-mobile {
-                display: inline-flex;
-            }
         
         }
 
@@ -181,11 +174,8 @@
 
     .products-header{
         font-size: 24px;
-        line-height: 28px;
+        line-height: 1.17;
     }
 
-    .hidden-tablet {
-        display: inline-flex;
-    }
     
 }
