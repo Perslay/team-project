@@ -22,7 +22,7 @@
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   width: 311px;
-  height: 994px;
+  height: 90vh;
   overflow: auto;
   border-radius: 15px;
 background: var(--color-light)
@@ -44,7 +44,7 @@ background: transparent;
 .buy-button-submit {
   position: fixed;
   left: 24px;
-  bottom: 32px;
+  top: 921px;
   display: inline-flex;
 padding: 12px 28px;
 align-items: flex-start;
