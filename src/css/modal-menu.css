@@ -113,6 +113,10 @@
   height: 20px;
 }
 
+.modal-menu-social {
+  height: 100%;
+}
+
 .modal-menu-social-link {
   display: block;
   height: 100%;
@@ -222,6 +226,10 @@
     gap: 18px;
     align-items: center;
     height: 24px;
+  }
+
+  .modal-menu-social {
+    height: 100%;
   }
 
   .modal-menu-social-link {
