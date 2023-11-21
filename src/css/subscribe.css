@@ -69,7 +69,6 @@
 }
 
 .subscribe-button {
-    font-family: Montserrat;
     font-size: 14px;
     font-weight: 600;
     line-height: 1.21;
@@ -83,6 +82,15 @@
     border-radius: 100px;
     margin: 0 auto;
     background: #FD9222;
+    transition: background-color .25s cubic-bezier(.4,0,.2,1), visibility .25s cubic-bezier(.4,0,.2,1);
+
+}
+
+.subscribe-button:focus,
+.subscribe-button:hover {
+background: #FCF1E0;
+color: #FD9222;
+transition: background-color .25s cubic-bezier(.4,0,.2,1), visibility .25s cubic-bezier(.4,0,.2,1);
 }
 
 
@@ -218,6 +226,8 @@ background: #fd9222;
     top: 273px;
     left: 187px;
     color: #FFF;
+    transition: background-color .25s cubic-bezier(.4,0,.2,1), visibility .25s cubic-bezier(.4,0,.2,1);
+
 }
 
 .subscribe-button-submit:focus,
