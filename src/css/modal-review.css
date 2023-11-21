@@ -17,18 +17,107 @@
 }
 
 .review-window {
+  align-items: center;
+  background: var(--color-white);
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 471px;
+  left: 50%;
+  overflow: auto;
+  padding: 0 24px;
   position: absolute;
   top: 50%;
-  left: 50%;
   transform: translate(-50%, -50%) scale(1);
   width: 311px;
-  height: 600px;
-  background: #ffffff;
-  overflow: auto;
 }
 
 .review-close {
-  width: 24px;
-  height: 24px;
+  background-color: transparent;
+  border: none;
   flex-shrink: 0;
+  height: 28px;
+  padding: 0;
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  width: 28px;
+}
+
+.review-close-icon {
+  stroke: var(--color-black);
+}
+
+.modal-review-heading {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+
+.modal-review-accent {
+  color: var(--color-orange);
+}
+
+.modal-review-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.modal-review-form-row {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  position: relative;
+  width: 100%;
+}
+
+.modal-review-label {
+  color: #4040404d;
+  position: absolute;
+  top: 14px;
+  left: 18px;
+  transition: all 0.3s ease;
+}
+
+.modal-review-field {
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 8px;
+  color: #4040404d;
+  padding: 14px 18px;
+  width: 100%;
+}
+
+.modal-review-field:focus + .modal-review-label,
+.modal-review-field:not(:placeholder-shown) + .modal-review-label {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-size: 12px;
+  padding: 0 5px;
+  transform: translateY(-20px);
+}
+
+.modal-review-field:focus {
+  box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
+  color: var(--color-black);
+  outline: none;
+}
+
+.modal-review-button {
+  background-color: var(--color-orange);
+  border: none;
+  border-radius: 100px;
+  color: var(--color-white);
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 4px;
+  padding: 12px 28px;
+}
+
+.modal-review-button:hover,
+.modal-review-button:focus {
+  background-color: var(--color-lightorange);
+  color: var(--color-orange);
 }
