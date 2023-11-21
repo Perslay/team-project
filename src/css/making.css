@@ -13,7 +13,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 116.667%;
+  line-height: 120%;
   letter-spacing: -0.03em;
   text-transform: uppercase;
 }
@@ -24,7 +24,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 28px;
+  line-height: 120%;
   letter-spacing: -0.03em;
   text-transform: uppercase;
 }
@@ -50,12 +50,24 @@
 }
 
 .making-list {
-  padding-inline-start: 16px;
-  list-style-type: disc;
+  padding-inline-start: 0;
+  list-style: none;
+  position: relative;
+}
+
+.list-circle {
+  fill: #4c4c4c;
+  stroke-width: 1px;
+  stroke: #eceded;
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0;
+  margin: 5px 8px 0 0;
 }
 
 .making-list-step {
   margin-top: 18px;
+  display: flex;
 }
 
 .making-list-step:first-child {
@@ -125,6 +137,14 @@
   .container-making {
     margin-top: 50px;
   }
+
+  .making-header {
+    line-height: 116.667%;
+  }
+
+  .orange-header {
+    line-height: 116.667%;
+  }
 }
 
 /* -----------------------------------------------DESKTOP-------------------------------------- */
@@ -151,5 +171,13 @@
   .container-making {
     margin-top: 50px;
     margin-bottom: 128px;
+  }
+
+  .making-header {
+    line-height: 116.667%;
+  }
+
+  .orange-header {
+    line-height: 116.667%;
   }
 }
