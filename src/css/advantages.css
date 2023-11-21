@@ -6,8 +6,8 @@
 
 .container-advanteges {
   margin: 0 auto;
-  padding: 20px;
   max-width: 375px;
+  padding: 20px;
 }
 .visually-hidden {
   position: absolute;
