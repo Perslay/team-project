@@ -50,7 +50,7 @@
 }
 
 .making-list {
-  padding-inline-start: 0;
+  /* padding-inline-start: 16px; */
   list-style: none;
   position: relative;
 }
