@@ -180,7 +180,6 @@ background: var(--color-white);
 }
 }
 
-
 .buy-schoco-cont-three {
   width: 84px;
   height: 69px;
@@ -264,6 +263,7 @@ letter-spacing: -0.28px;
 .buy-input::placeholder {
   color: #4040404D;
 }
+
 .buy-phone {
   display: flex;
 width: 74px;
@@ -547,6 +547,4 @@ align-items: center;
 .buy-form {
   height: 680px;
 }
-
-  }
-  
+}

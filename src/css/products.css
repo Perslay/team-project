@@ -18,42 +18,31 @@
         text-align: center;
         gap: 32px;
         width: 100%;
-        height: 100%;
+        height:  100%;
+        padding-bottom: 105px;
     }
-
 
     .products-slider-images {
         display: flex;
         width: 100%;
-
     }
 
     .products-ul {
-        width: 100%;
-        height: 100%;
-        padding: 52px 32px 53px 32px;
-        border: 1px rgba(17, 17, 17, 0.10) solid;
-        border-radius: 15px;
-        background-color: var(--color-white);
         display: inline-flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         text-align: center;
-        overflow: hidden;
-
+        height: 100%;
     }
-
 
     .products-header {
         color: var(--color-black);
         font-size: 20px;
         font-weight: 600;
         text-transform: uppercase;
-        line-height: 24px;
+        line-height: 1,2;
         word-wrap: break-word;
         text-align: center;
-        margin-bottom: 32px;
     }
 
     .products-list-li {
@@ -63,8 +52,12 @@
         align-items: center;
         gap: 8px;
         display: inline-flex;
-        margin-bottom: 32px;
-
+        border: 1px rgba(17, 17, 17, 0.10) solid;
+        border-radius: 15px;
+        background-color: var(--color-white);
+        width: 100%;
+        height: 100%;
+        padding: 32px 52px 32px 53px;
     }
 
     .products-title {
@@ -80,19 +73,17 @@
         font-size: 18px;
         font-weight: 600;
         text-transform: uppercase;
-        line-height: 24px;
+        line-height: 1.33;
         word-wrap: break-word;
-        margin-top: 8px;
-
     }
 
     .products-text {
         color: rgba(17, 17, 17, 0.70);
         font-size: 12px;
         font-weight: 400;
-        line-height: 14px;
+        line-height: 1.17;
         word-wrap: break-word;
-        margin-bottom: 18px;
+        margin-bottom: 16px;
     }
 
     .products-button {
@@ -118,29 +109,76 @@
         color: var(--color-white);
     }
 
-    .products .swiper-pagination {
-        justify-content: center;
-        align-items: center;
-        gap: 13px;
-        display: inline-flex;
+
+    .products-js-pagination {
+        padding-top: 20px;
+        padding-bottom: 72px;
+    }
+    .swiper-pagination-bullet {
+        background-color: rgba(17, 17, 17, 0.10);
+        width: 13px;
+        height: 13px;
+        transition: border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1), width 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-radius 0.25s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .hidden-mobile{
-        display: none;
-    }
+    .swiper-pagination-bullet-active {
+        background-color: var(--color-orange);
+        width: 28px;
+        height: 13px;
+        border-radius: 100px;
+        opacity: 1;
+        transform: none;
+                }
 
-    .hidden-tablet {
-        display:none;
-    }
-
-    .hidden-desktop {
-        display: none;
-    }
+   
 
 }
 
 /* ================================================= TABLET 👇 ========================================= */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+
+    .products {
+        padding-right: 0;
+        padding-left: 33px;
+        padding-bottom: 145px;
+    }
+
+    .products-header {
+        font-size: 24px;
+        line-height: 1.17;
+    }
+
+    .products-ul {
+        flex-direction: row;
+        justify-content: flex-start;
+        }
+            
+    .products-list-li {
+        padding: 32px 20px;
+        }
+    .products-js-pagination {
+        padding-top: 32px;
+        padding-bottom: 100px;
+        }
+        
+        }
+
 
 /* ================================================= DESKTOP 👇 ========================================= */
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+
+    .products {
+        padding-bottom: 173px;
+        }
+    .products-header{
+        font-size: 24px;
+        line-height: 1.17;
+    }
+    
+    .products-js-pagination {
+        padding-top: 32px;
+        padding-bottom: 128px;
+    }
+
+    
+}
