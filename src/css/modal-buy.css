@@ -338,6 +338,20 @@ box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
     width: 609px;
   }
 
+.buy-close {
+  width: 28px;
+height: 28px;
+top: 24px;
+left: 557px;
+}
+.buy-now {
+  top: 48px;
+  left: 243px;
+  
+}
+
+
+
   .buy-schoco-div {
     display: flex;
 width: 513px;
@@ -392,7 +406,7 @@ flex-shrink: 0;
   display: flex;
 width: 160px;
 height: auto;
-padding: 24px 20px 18px 20px;
+padding: 0;
 flex-direction: column;
 justify-content: flex-end;
 align-items: center;
@@ -413,6 +427,56 @@ flex-shrink: 0;
 .buy-schoco-cont-three {
   width: 120px;
     height: 107px;
+}
+
+.buy-grams {
+  height: 33px;
+  width: 96px;
+}
+
+.buy-inp-div {
+  display: flex;
+align-items: flex-start;
+gap: 21px;
+flex-direction: row;
+}
+
+.buy-input-div{
+  padding: 22px 24px;
+  width: 513px;
+}
+
+.buy-input {
+  font-size: 18px;
+}
+
+.buy-form-label-one {
+  font-size: 14px;
+}
+
+.buy-number-two {
+  top: 20px;
+}
+
+.buy-number {
+  font-size: 18px;
+  
+}
+
+.buy-phone {
+  display: flex;
+width: 125px;
+padding-right: 0px;
+align-items: center;
+gap: 18px;
+flex-shrink: 0;
+align-self: stretch;
+}
+
+.buy-flag {
+  flex-shrink: 0;
+    width: 32px;
+    height: 24px;
 }
 
   }
