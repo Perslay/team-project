@@ -6,7 +6,7 @@ const swiper = new Swiper('.products-js-slider', {
         clickable: true,
     },
     breakpoints: {
-        375: {
+        320: {
             slidesPerView: 1,
         },
         768: {

@@ -2,10 +2,6 @@
     color: var(--color-orange);
 }
 
-
-/* ================================================= MOBILE 👇 ========================================= */
-@media screen and (min-width: 375px) {
-
     .products-section {
         background-color: var(--color-light);
     }
@@ -112,7 +108,7 @@
 
     .products-js-pagination {
         padding-top: 20px;
-        padding-bottom: 72px;
+        padding-bottom: 60px;
     }
     .swiper-pagination-bullet {
         background-color: rgba(17, 17, 17, 0.10);
@@ -130,9 +126,6 @@
         transform: none;
                 }
 
-   
-
-}
 
 /* ================================================= TABLET 👇 ========================================= */
 @media screen and (min-width: 768px) {
@@ -158,7 +151,7 @@
         }
     .products-js-pagination {
         padding-top: 32px;
-        padding-bottom: 100px;
+        padding-bottom: 86px;
         }
         
         }
@@ -177,7 +170,7 @@
     
     .products-js-pagination {
         padding-top: 32px;
-        padding-bottom: 128px;
+        padding-bottom: 115px;
     }
 
     
