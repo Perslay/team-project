@@ -336,9 +336,84 @@ box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
 
   .buy-window {
     width: 609px;
-  height: 1058px;
   }
+
+  .buy-schoco-div {
+    display: flex;
+width: 513px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+position: absolute;
+    top: 108px;
+    left: 48px;
+  }
+
+.buy-schoco {
+  position: unset;
+  display: flex;
+width: 160px;
+height: 196px;
+padding: 24px 20px 18px 20px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 14px;
+flex-shrink: 0;
+}
+
+.buy-schoco-two {
+  position: unset;
+  display: flex;
+  height: 196px;
+width: 160px;
+padding: 24px 20px 18px 20px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 14px;
+flex-shrink: 0;
+}
+
+.buy-schoco-three {
+  position: unset;
+  display: flex;
+  height: 196px;
+width: 160px;
+padding: 24px 20px 18px 20px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 14px;
+flex-shrink: 0;
+}
   
-  
+.buy-schoco-cont {
+  display: flex;
+width: 160px;
+height: auto;
+padding: 24px 20px 18px 20px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 14px;
+flex-shrink: 0;
+}
+
+.buy-schoco-cont-one{
+  width: 120px;
+  height: 107px;
+}
+
+.buy-schoco-cont-two {
+  width: 120px;
+    height: 107px;
+}
+
+.buy-schoco-cont-three {
+  width: 120px;
+    height: 107px;
+}
+
   }
   
