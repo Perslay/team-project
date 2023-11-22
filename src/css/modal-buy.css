@@ -42,9 +42,6 @@ background: transparent;
 }
 
 .buy-button-submit {
-  position: fixed;
-  left: 24px;
-  top: 921px;
   display: inline-flex;
 padding: 12px 28px;
 align-items: flex-start;
@@ -174,7 +171,6 @@ background: var(--color-white);
 }
 }
 
-
 .buy-schoco-cont-three {
   width: 84px;
   height: 69px;
@@ -199,6 +195,7 @@ gap: 18px;
 top: 391px;
 left: 24px;
 position: absolute;
+height: 630px;
 }
 
 .buy-form-label-one {
@@ -332,3 +329,14 @@ border-radius: 8px;
 border: 1.5px solid rgba(17, 17, 17, 0.05);
 box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
 }
+
+/* ================================= Tablet ============================*/
+
+@media screen and (min-width: 768px) {
+
+  .buy-window {
+    width: 609px;
+  height: 1058px;
+  }
+  
+  }
