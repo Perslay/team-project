@@ -379,7 +379,7 @@ background-image: url(../images/modal-subscribe/subscribe@2x.jpg);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/subscribe/subscribe-desktop.jpg);
     background-size: cover;
     height: 370px;
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
     
