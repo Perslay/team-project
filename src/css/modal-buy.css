@@ -59,6 +59,15 @@ text-align: left;
 color: var(--color-white);
 }
 
+.buy-button-submit:focus,
+.buy-button-submit:hover {
+background: #FCF1E0;
+color: #FD9222;
+transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+
 .buy-now {
 position: absolute;
 width: 102px;
@@ -336,7 +345,206 @@ box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
 
   .buy-window {
     width: 609px;
-  height: 1058px;
   }
+
+.buy-close {
+  width: 28px;
+height: 28px;
+top: 24px;
+left: 557px;
+}
+.buy-now {
+  top: 48px;
+  left: 243px;
   
+}
+
+
+
+  .buy-schoco-div {
+    display: flex;
+width: 513px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+position: absolute;
+    top: 108px;
+    left: 48px;
   }
+
+.buy-schoco {
+  position: unset;
+  display: flex;
+width: 160px;
+height: 196px;
+padding: 24px 20px 18px 20px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 14px;
+flex-shrink: 0;
+}
+
+.buy-schoco-two {
+  position: unset;
+  display: flex;
+  height: 196px;
+width: 160px;
+padding: 24px 20px 18px 20px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 14px;
+flex-shrink: 0;
+}
+
+.buy-schoco-three {
+  position: unset;
+  display: flex;
+  height: 196px;
+width: 160px;
+padding: 24px 20px 18px 20px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 14px;
+flex-shrink: 0;
+}
+  
+.buy-schoco-cont {
+  display: flex;
+width: 160px;
+height: auto;
+padding: 0;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 14px;
+flex-shrink: 0;
+}
+
+.buy-schoco-cont-one{
+  background: url(/src/images/modal-buy/buy-1.jpg) 0 0 / cover;
+  width: 120px;
+  height: 107px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+.buy-schoco-cont-one {
+  background: url(/src/images/modal-buy/buy-1@2x.jpg) cover;
+}
+}
+
+.buy-schoco-cont-two {
+  background: url(/src/images/modal-buy/buy-2.jpg) cover;
+  width: 120px;
+    height: 107px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+.buy-schoco-cont-two {
+  background: url(/src/images/modal-buy/buy-2@2x.jpg) cover;
+}
+}
+
+.buy-schoco-cont-three {
+  background: url(/src/images/modal-buy/buy-3.jpg) cover;
+  width: 120px;
+    height: 107px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+.buy-schoco-cont-three {
+  background: url(/src/images/modal-buy/buy-3@2x.jpg) cover;
+}
+}
+
+.buy-grams {
+  height: 33px;
+  width: 96px;
+}
+
+.buy-inp-div {
+  display: flex;
+align-items: flex-start;
+gap: 21px;
+flex-direction: row;
+}
+
+.buy-input-div{
+  padding: 22px 24px;
+  width: 100%;
+}
+
+.buy-input {
+  font-size: 18px;
+}
+
+.buy-form-label-one {
+  font-size: 14px;
+}
+
+.buy-number-two {
+  top: 20px;
+  display: flex;
+width: 237px;
+height: 24px;
+align-items: center;
+gap: 20px;
+position: absolute;
+right: 144px;
+top: 21px;
+}
+
+.buy-number {
+  font-size: 18px;
+  
+}
+
+.buy-phone {
+  display: flex;
+width: 125px;
+padding-right: 0px;
+align-items: center;
+gap: 18px;
+flex-shrink: 0;
+align-self: stretch;
+background: #FAFAFA;
+box-shadow: 2.72246px 0px 0px 0px rgba(0, 0, 0, 0.10);
+}
+
+.buy-flag {
+  flex-shrink: 0;
+    width: 32px;
+    height: 24px;
+}
+
+.buy-p-inf {
+  width: 100%;
+}
+
+.buy-input-comment {
+  width: 100%;
+}
+
+.buy-ico {
+  width: 44px;
+height: 30px;
+padding: 5.625px 6.914px 5.967px 6.914px;
+justify-content: center;
+align-items: center;
+}
+
+.buy-form {
+  height: 680px;
+}
+}
