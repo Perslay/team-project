@@ -96,6 +96,7 @@
   height: 500px;
   flex-shrink: 0;
   border-radius: 15px;
+  border: 0px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
     url(../images/making/making-mobile.jpg),
     lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
