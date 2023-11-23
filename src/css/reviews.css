@@ -85,6 +85,7 @@
   background-color: transparent;
   border: 1px solid var(--color-orange);
   border-radius: 100px;
+  color: var(--color-black);
   display: block;
   font-size: 14px;
   font-weight: 600;
