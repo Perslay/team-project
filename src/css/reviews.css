@@ -20,7 +20,7 @@
 .reviews-list {
   display: flex;
   /* flex-wrap: wrap; */
-  margin-bottom: 20px;
+  margin-bottom: 65px;
 }
 
 .reviews-li {
@@ -86,8 +86,7 @@
 }
 
 .reviews-js-pagination {
-  padding-top: 32px;
-  padding-bottom: 100px;
+  padding-bottom: 86px;
 }
 
 .reviews-button {
@@ -122,8 +121,7 @@
   }
 
   .reviews-list {
-    gap: 16px;
-    margin-bottom: 31px;
+    margin-bottom: 94px;
   }
 
   .reviews-li {
@@ -138,6 +136,10 @@
     margin-bottom: 50;
   }
 
+  .reviews-js-pagination {
+    padding-bottom: 104px;
+  }
+
   .reviews-button {
     font-size: 18px;
     padding: 14px 40px;
@@ -150,7 +152,7 @@
   }
 
   .reviews-list {
-    gap: 28px;
+    gap: 10px;
   }
 
   .reviews-li {
