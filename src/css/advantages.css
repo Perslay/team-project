@@ -1,0 +1,126 @@
+.dark-bg {
+  margin: 0 auto;
+  display: block;
+  background: var(--color-dark);
+}
+
+.container-advanteges {
+  margin: 0 auto;
+  max-width: 375px;
+  padding: 20px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advanteges-card-set {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.advantages-card {
+  max-width: 326px;
+  text-align: center;
+  align-items: center;
+  flex-basis: calc((100% - 20px) / 1);
+  position: relative;
+}
+
+.advantages-box {
+  width: 308px;
+}
+
+.advantages-header {
+  color: var(--color-white);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+  margin: 22px 0 18px;
+}
+
+.advantages-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.advantages-icons {
+  width: 62px;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 365px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* ------------------------------------------TABLET---------------------------------- */
+
+@media screen and (min-width: 768px) {
+  .advanteges-card-set {
+    justify-content: flex-start;
+    gap: 32px 60px;
+  }
+
+  .advantages-card {
+    max-width: 308px;
+  }
+
+  .advantages-card:last-child {
+    padding-bottom: 35px;
+  }
+
+  .container-advanteges {
+    padding: 50px 32px;
+    max-width: 768px;
+  }
+}
+
+/* -----------------------------------------------DESKTOP-------------------------------------- */
+
+@media screen and (min-width: 1200px) {
+  .advanteges-card-set {
+    justify-content: center;
+    gap: 88px;
+  }
+
+  .advantages-card {
+    max-width: 308px;
+  }
+
+  .line::after {
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    width: 1px;
+    height: 124px;
+    top: 60px;
+    left: 100%;
+  }
+
+  .container-advanteges {
+    padding: 50px;
+    max-width: 1200px;
+  }
+
+  .dark-bg {
+    height: 344px;
+  }
+}
