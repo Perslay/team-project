@@ -121,7 +121,6 @@
   }
 
   .reviews-list {
-    gap: 16px;
     margin-bottom: 94px;
   }
 
@@ -153,7 +152,7 @@
   }
 
   .reviews-list {
-    gap: 28px;
+    gap: 10px;
   }
 
   .reviews-li {
