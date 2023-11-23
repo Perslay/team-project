@@ -124,7 +124,7 @@
   padding-right: 8px;
   position: absolute;
   top: 10.5px;
-  box-shadow: 1.5px 0px 0px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2.5px 0px 0px -1px rgba(0, 0, 0, 0.1);
 }
 
 .flag-icon {
@@ -196,7 +196,7 @@
   }
 
   .review-phone-left {
-    box-shadow: 2.72246px 0px 0px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 3.72246px 0px 0px -1px rgba(0, 0, 0, 0.1);
     gap: 18px;
     left: 24px;
     padding-right: 32px;
