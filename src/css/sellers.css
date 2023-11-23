@@ -1,5 +1,8 @@
 /*--------------------------------------------------------MOBILE-----------------------------------------------*/
-
+.sellers-div {
+    margin: 0 auto;
+    padding: 0 20px;
+}
 .sellers-title {
     font-weight: 600;
     font-size: 20px;
@@ -83,6 +86,9 @@
 .sellers-div {
     padding-left: 32px;
     padding-right: 32px;
+    padding: 0 32px;
+    max-width: 1190px;
+
 }
 .sellers-title {
     padding-bottom: 50px;
@@ -131,7 +137,7 @@
 }
 .sellers-text-button {
     display: flex;
-    gap: 580px;
+    gap: 658px;
 }
 .sellers-p-div-2 {
     display: flex;
