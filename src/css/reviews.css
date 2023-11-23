@@ -86,7 +86,6 @@
   border: 1px solid var(--color-orange);
   border-radius: 100px;
   color: var(--color-black);
-  display: block;
   font-size: 14px;
   font-weight: 600;
   margin: 0 auto;
@@ -99,6 +98,7 @@
 .reviews-button:focus {
   background-color: var(--color-orange);
   color: var(--color-white);
+  outline: none;
 }
 
 @media screen and (min-width: 768px) {
