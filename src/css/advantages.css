@@ -38,7 +38,7 @@
 }
 
 .advantages-box {
-  width: 308px;
+  max-width: 308px;
 }
 
 .advantages-header {
@@ -112,7 +112,7 @@
     width: 1px;
     height: 124px;
     top: 60px;
-    left: 100%;
+    right: -18px;
   }
 
   .container-advanteges {
