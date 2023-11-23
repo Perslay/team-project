@@ -191,6 +191,7 @@
   }
 
   .modal-review-field {
+    background-color: transparent;
     border-radius: 13px;
     padding: 22px 24px;
   }
