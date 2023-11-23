@@ -1,10 +1,10 @@
 <section id="reviews" class="reviews-section">
-  <div class="container">
+  <div class="container cont-reviews swiper reviews-js-slider">
     <h2 class="second-heading reviews-heading">
       <span class="reviews-accent">chocolate</span> is loved
     </h2>
-    <ul class="list reviews-list">
-      <li class="reviews-li">
+    <ul class="list reviews-list swiper-wrapper">
+      <li class="reviews-li swiper-slide">
         <img
           class="review-photo"
           width="80"
@@ -19,7 +19,7 @@
           layer chocolate.
         </p>
       </li>
-      <li class="reviews-li">
+      <li class="reviews-li swiper-slide">
         <img
           class="review-photo"
           width="80"
@@ -34,7 +34,7 @@
           hazelnut cream is smooth, and the chocolate is good.
         </p>
       </li>
-      <li class="reviews-li">
+      <li class="reviews-li swiper-slide">
         <img
           class="review-photo"
           width="80"
@@ -49,7 +49,7 @@
           creaminess inside. The wafer is soft but crunchy.
         </p>
       </li>
-      <li class="reviews-li">
+      <li class="reviews-li swiper-slide">
         <img
           class="review-photo"
           width="80"
@@ -64,7 +64,7 @@
           and just right on the sweetness level.
         </p>
       </li>
-      <li class="reviews-li">
+      <li class="reviews-li swiper-slide">
         <img
           class="review-photo"
           width="80"
@@ -79,7 +79,7 @@
           an apple with almond butter and these chips for a snack.
         </p>
       </li>
-      <li class="reviews-li">
+      <li class="reviews-li swiper-slide">
         <img
           class="review-photo"
           width="80"
@@ -95,12 +95,15 @@
         </p>
       </li>
     </ul>
+    <!--
     <ul class="list reviews-slider">
       <li><button type="button" class="reviews-slide active-review"></button></li>
       <li><button type="button" class="reviews-slide"></button></li>
       <li><button type="button" class="reviews-slide"></button></li>
       <li><button type="button" class="reviews-slide"></button></li>
     </ul>
+     -->
+    <div class="swiper-pagination reviews-js-pagination"></div>
     <button class="reviews-button" type="button" data-modal-review-open>Leave a review</button>
   </div>
 </section>
