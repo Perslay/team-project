@@ -10,6 +10,7 @@
 
 .reviews-heading {
   font-weight: 600;
+  margin-bottom: 72px;
 }
 
 .reviews-accent {
@@ -20,7 +21,6 @@
   display: flex;
   /* flex-wrap: wrap; */
   margin-bottom: 65px;
-  padding-top: 74px;
 }
 
 .reviews-li {
@@ -117,11 +117,11 @@
   .reviews-heading {
     font-size: 24px;
     line-height: 1.17;
+    margin-bottom: 91px;
   }
 
   .reviews-list {
     margin-bottom: 94px;
-    padding-top: 91px;
   }
 
   .reviews-li {
