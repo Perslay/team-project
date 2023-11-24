@@ -12,6 +12,7 @@
 body {
   background-color: var(--color-light);
   font-family: 'Montserrat', sans-serif;
+  height: 100%;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
