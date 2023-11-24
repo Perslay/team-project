@@ -25,7 +25,7 @@
   height: 90vh;
   overflow: auto;
   border-radius: 15px;
-background: var(--color-light)
+  background: var(--color-light);
 }
 
 .buy-close {
@@ -33,53 +33,52 @@ background: var(--color-light)
   top: 14px;
   right: 14px;
   width: 24px;
-height: 24px;
-flex-shrink: 0;
-display: flex;
-padding: 0;
-border: 0;
-background: transparent;
+  height: 24px;
+  flex-shrink: 0;
+  display: flex;
+  padding: 0;
+  border: 0;
+  background: transparent;
 }
 
 .buy-button-submit {
   display: inline-flex;
-padding: 12px 28px;
-align-items: flex-start;
-gap: 14px;
-border-radius: 100px;
-background: #FD9222;
-Width: 109px;
-Height: 41px;
-border: 0;
-font-size: 14px;
-font-weight: 600;
-line-height: 1.21;
-letter-spacing: 0em;
-text-align: left;
-color: var(--color-white);
+  padding: 12px 28px;
+  align-items: flex-start;
+  gap: 14px;
+  border-radius: 100px;
+  background: #fd9222;
+  width: 109px;
+  height: 41px;
+  border: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.21;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--color-white);
 }
 
 .buy-button-submit:focus,
 .buy-button-submit:hover {
-background: #FCF1E0;
-color: #FD9222;
-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  background: #fcf1e0;
+  color: #fd9222;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .buy-now {
-position: absolute;
-width: 102px;
-top: 32px;
-left: 104px;
-color: var(--color-black);
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 1.2;
-letter-spacing: -0.03em;
-text-transform: uppercase;
+  position: absolute;
+  width: 102px;
+  top: 32px;
+  left: 104px;
+  color: var(--color-black);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
 }
 
 .buy-span {
@@ -87,80 +86,80 @@ text-transform: uppercase;
 }
 
 .buy-schoco {
-position: absolute;
-width: 263px;
-height: 85px;
-top: 88px;
-left: 24px;
-padding: 8px 16px;
-border-radius: 15px;
-border: 1px solid #1111111A;
-background: var(--color-white);
+  position: absolute;
+  width: 263px;
+  height: 85px;
+  top: 88px;
+  left: 24px;
+  padding: 8px 16px;
+  border-radius: 15px;
+  border: 1px solid #1111111a;
+  background: var(--color-white);
 }
 
 .buy-schoco-cont {
-display: flex;
-align-items: center;
-gap: 77px;
-width: 231px;
-height: 69px;
+  display: flex;
+  align-items: center;
+  gap: 77px;
+  width: 231px;
+  height: 69px;
 }
 
 .buy-schoco-cont-one {
-width: 84px;
-height: 69px;
-background: url(/src/images/modal-buy/buy-1-mobile.jpg);
-background-size: cover;
+  width: 84px;
+  height: 69px;
+  background: url(/src/images/modal-buy/buy-1-mobile.jpg);
+  background-size: cover;
 }
 
 @media (min-device-pixel-ratio: 2),
-        (-webkit-min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-    .buy-schoco-cont-one {
-        background-image: url(/src/images/modal-buy/buy-1-mobile@2x.jpg);
-    }
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .buy-schoco-cont-one {
+    background-image: url(/src/images/modal-buy/buy-1-mobile@2x.jpg);
+  }
 }
 
 .buy-grams {
   display: flex;
-justify-content: center;
-align-items: center;
-gap: 14px;
-border-radius: 100px;
-border: 1px solid rgba(17, 17, 17, 0.10);
-background: var(--color-light);
-color: var(--color-black);
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-width: 70px;
-height: 29px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  border-radius: 100px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: var(--color-light);
+  color: var(--color-black);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 70px;
+  height: 29px;
 }
 
 .buy-schoco-two {
-position: absolute;
-width: 263px;
-height: 85px;
-top: 181px;
-left: 24px;
-padding: 8px 16px;
-border-radius: 15px;
-border: 1px solid #1111111A;
-background: var(--color-white);
+  position: absolute;
+  width: 263px;
+  height: 85px;
+  top: 181px;
+  left: 24px;
+  padding: 8px 16px;
+  border-radius: 15px;
+  border: 1px solid #1111111a;
+  background: var(--color-white);
 }
 
 .buy-schoco-three {
-position: absolute;
-width: 263px;
-height: 85px;
-top: 274px;
-left: 24px;
-padding: 8px 16px;
-border-radius: 15px;
-border: 1px solid #1111111A;
-background: var(--color-white);
+  position: absolute;
+  width: 263px;
+  height: 85px;
+  top: 274px;
+  left: 24px;
+  padding: 8px 16px;
+  border-radius: 15px;
+  border: 1px solid #1111111a;
+  background: var(--color-white);
 }
 
 .buy-schoco-cont-two {
@@ -168,15 +167,15 @@ background: var(--color-white);
   height: 69px;
   background: url(/src/images/modal-buy/buy-2-mobile.jpg);
   background-size: cover;
-  }
+}
 
-  @media (min-device-pixel-ratio: 2),
+@media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-.buy-schoco-cont-two {
-  background-image: url(/src/images/modal-buy/buy-2-mobile@2x.jpg);
-}
+  .buy-schoco-cont-two {
+    background-image: url(/src/images/modal-buy/buy-2-mobile@2x.jpg);
+  }
 }
 
 .buy-schoco-cont-three {
@@ -184,375 +183,376 @@ background: var(--color-white);
   height: 69px;
   background: url(/src/images/modal-buy/buy-3-mobile.jpg);
   background-size: cover;
-  }
+}
 
-  @media (min-device-pixel-ratio: 2),
+@media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-.buy-schoco-cont-three {
-  background-image: url(/src/images/modal-buy/buy-3-mobile@2x.jpg);
-}
+  .buy-schoco-cont-three {
+    background-image: url(/src/images/modal-buy/buy-3-mobile@2x.jpg);
+  }
 }
 
 .buy-form {
   display: inline-flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 18px;
-top: 391px;
-left: 20px;
-position: absolute;
-height: 630px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  top: 391px;
+  left: 24px;
+  position: absolute;
+  height: 630px;
 }
 
 .buy-form-label-one {
-color: var(--color-black);
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.16;
-letter-spacing: -0.02em;
+  color: var(--color-black);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
 }
 
 .buy-inp-div {
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 14px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
 }
 
 .buy-input-div {
   position: relative;
   display: flex;
-width: 263px;
-padding: 14px 18px;
-align-items: flex-start;
-gap: 40px;
-border-radius: 8px;
-border: 1.5px solid rgba(17, 17, 17, 0.05);
-box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
+  width: 263px;
+  padding: 14px 18px;
+  align-items: flex-start;
+  gap: 40px;
+  border-radius: 8px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
 }
 
 .buy-p-inf {
   display: flex;
-width: 263px;
-flex-direction: column;
-align-items: flex-start;
-gap: 8px;
+  width: 263px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
 }
 
 .buy-input {
   display: flex;
-align-items: center;
-gap: 21.78px;
-flex: 1 0 0;
-align-self: stretch;
-background-color: transparent;
-outline: transparent;
-border: none;
-color: rgba(64, 64, 64, 0.30);
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -0.02em;
+  align-items: center;
+  gap: 21.78px;
+  flex: 1 0 0;
+  align-self: stretch;
+  background-color: transparent;
+  outline: transparent;
+  border: none;
+  color: rgba(64, 64, 64, 0.3);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02em;
+  width: 100%;
 }
 
 .buy-input::placeholder {
-  color: #4040404D;
+  color: #4040404d;
 }
 
 .buy-phone {
   display: flex;
-width: 74px;
-padding-right: 0px;
-align-items: center;
-gap: 8px;
-flex-shrink: 0;
-align-self: stretch;
-background: #FAFAFA;
-box-shadow: 1.5px 0px 0px 0px rgba(0, 0, 0, 0.10);
+  width: 74px;
+  padding-right: 0px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  align-self: stretch;
+  background: #fafafa;
+  box-shadow: 1.5px 0px 0px 0px rgba(0, 0, 0, 0.1);
 }
 
 .buy-flag {
   width: 24px;
-height: 18px;
-flex-shrink: 0;
+  height: 18px;
+  flex-shrink: 0;
 }
 
 .buy-number {
   color: #000;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: -0.02em;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.02em;
 }
 
 .buy-number-two {
   display: flex;
-width: 128px;
-height: 24px;
-align-items: center;
-gap: 20px;
-position: absolute;
-right: 29px;
-top: 10px;
+  width: 128px;
+  height: 24px;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  right: 29px;
+  top: 10px;
 }
 
 .buy-card {
   display: flex;
-align-items: center;
-gap: 21.78px;
-flex: 1 0 0;
-align-self: stretch;
+  align-items: center;
+  gap: 21.78px;
+  flex: 1 0 0;
+  align-self: stretch;
 }
 
 .buy-master {
   display: flex;
-width: 32px;
-height: 21px;
-padding: 3.938px 5.029px 4.177px 5.029px;
-justify-content: center;
-align-items: center;
-border-radius: 4px;
-border: 1px solid #FAFAFA;
-background: #FAFAFA;
+  width: 32px;
+  height: 21px;
+  padding: 3.938px 5.029px 4.177px 5.029px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #fafafa;
+  background: #fafafa;
 }
 
 .buy-ico {
   width: 21.943px;
-height: 12.886px;
-flex-shrink: 0;
+  height: 12.886px;
+  flex-shrink: 0;
 }
 
 .buy-input-comment {
   display: flex;
-width: 263px;
-padding: 14px 18px 60px 18px;
-align-items: flex-start;
-gap: 40px;
-border-radius: 8px;
-border: 1.5px solid rgba(17, 17, 17, 0.05);
-box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
+  width: 263px;
+  padding: 14px 18px 60px 18px;
+  align-items: flex-start;
+  gap: 40px;
+  border-radius: 8px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
 }
 
 /* ================================= Tablet ============================*/
 
 @media screen and (min-width: 768px) {
-
   .buy-window {
     width: 609px;
   }
 
-.buy-close {
-  width: 28px;
-height: 28px;
-top: 24px;
-left: 557px;
-}
-.buy-now {
-  top: 48px;
-  left: 243px;
-  
-}
-
-
+  .buy-close {
+    width: 28px;
+    height: 28px;
+    top: 24px;
+    left: 557px;
+  }
+  .buy-now {
+    top: 48px;
+    left: 243px;
+  }
 
   .buy-schoco-div {
     display: flex;
-width: 513px;
-justify-content: center;
-align-items: center;
-gap: 16px;
-position: absolute;
+    width: 513px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
     top: 108px;
     left: 48px;
   }
 
-.buy-schoco {
-  position: unset;
-  display: flex;
-width: 160px;
-height: 196px;
-padding: 24px 20px 18px 20px;
-flex-direction: column;
-justify-content: flex-end;
-align-items: center;
-gap: 14px;
-flex-shrink: 0;
-}
+  .buy-schoco {
+    position: unset;
+    display: flex;
+    width: 160px;
+    height: 196px;
+    padding: 24px 20px 18px 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+  }
 
-.buy-schoco-two {
-  position: unset;
-  display: flex;
-  height: 196px;
-width: 160px;
-padding: 24px 20px 18px 20px;
-flex-direction: column;
-justify-content: flex-end;
-align-items: center;
-gap: 14px;
-flex-shrink: 0;
-}
+  .buy-schoco-two {
+    position: unset;
+    display: flex;
+    height: 196px;
+    width: 160px;
+    padding: 24px 20px 18px 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+  }
 
-.buy-schoco-three {
-  position: unset;
-  display: flex;
-  height: 196px;
-width: 160px;
-padding: 24px 20px 18px 20px;
-flex-direction: column;
-justify-content: flex-end;
-align-items: center;
-gap: 14px;
-flex-shrink: 0;
-}
-  
-.buy-schoco-cont {
-  display: flex;
-width: 160px;
-height: auto;
-padding: 0;
-flex-direction: column;
-justify-content: flex-end;
-align-items: center;
-gap: 14px;
-flex-shrink: 0;
-}
+  .buy-schoco-three {
+    position: unset;
+    display: flex;
+    height: 196px;
+    width: 160px;
+    padding: 24px 20px 18px 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+  }
 
-.buy-schoco-cont-one{
-  background: url(/src/images/modal-buy/buy-1.jpg) 0 0 / cover;
-  width: 120px;
-  height: 107px;
-}
+  .buy-schoco-cont {
+    display: flex;
+    width: 160px;
+    height: auto;
+    padding: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+  }
 
-@media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-.buy-schoco-cont-one {
-  background: url(/src/images/modal-buy/buy-1@2x.jpg) cover;
-}
-}
-
-.buy-schoco-cont-two {
-  background: url(/src/images/modal-buy/buy-2.jpg) cover;
-  width: 120px;
+  .buy-schoco-cont-one {
+    background: url(/src/images/modal-buy/buy-1.jpg) 0 0 / cover;
+    width: 120px;
     height: 107px;
-}
+  }
 
-@media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-.buy-schoco-cont-two {
-  background: url(/src/images/modal-buy/buy-2@2x.jpg) cover;
-}
-}
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .buy-schoco-cont-one {
+      background: url(/src/images/modal-buy/buy-1@2x.jpg) cover;
+    }
+  }
 
-.buy-schoco-cont-three {
-  background: url(/src/images/modal-buy/buy-3.jpg) cover;
-  width: 120px;
+  .buy-schoco-cont-two {
+    background: url(/src/images/modal-buy/buy-2.jpg) cover;
+    width: 120px;
     height: 107px;
-}
+  }
 
-@media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-.buy-schoco-cont-three {
-  background: url(/src/images/modal-buy/buy-3@2x.jpg) cover;
-}
-}
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .buy-schoco-cont-two {
+      background: url(/src/images/modal-buy/buy-2@2x.jpg) cover;
+    }
+  }
 
-.buy-grams {
-  height: 33px;
-  width: 96px;
-}
+  .buy-schoco-cont-three {
+    background: url(/src/images/modal-buy/buy-3.jpg) cover;
+    width: 120px;
+    height: 107px;
+  }
 
-.buy-inp-div {
-  display: flex;
-align-items: flex-start;
-gap: 21px;
-flex-direction: row;
-}
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .buy-schoco-cont-three {
+      background: url(/src/images/modal-buy/buy-3@2x.jpg) cover;
+    }
+  }
 
-.buy-input-div{
-  padding: 22px 24px;
-  width: 100%;
-}
+  .buy-grams {
+    height: 33px;
+    width: 96px;
+  }
 
-.buy-input {
-  font-size: 18px;
-  resize: none;
-}
+  .buy-inp-div {
+    display: flex;
+    align-items: flex-start;
+    gap: 21px;
+    flex-direction: row;
+  }
 
-.buy-form-label-one {
-  font-size: 14px;
-}
+  .buy-first-row-div {
+    max-width: 246px;
+  }
 
-.buy-number-two {
-  top: 20px;
-  display: flex;
-width: 237px;
-height: 24px;
-align-items: center;
-gap: 20px;
-position: absolute;
-right: 144px;
-top: 21px;
-}
+  .buy-input-div {
+    padding: 22px 24px;
+    width: 100%;
+  }
 
-.buy-number {
-  font-size: 18px;
-  
-}
+  .buy-input {
+    font-size: 18px;
+    resize: none;
+  }
 
-.buy-phone {
-  display: flex;
-width: 125px;
-padding-right: 0px;
-align-items: center;
-gap: 18px;
-flex-shrink: 0;
-align-self: stretch;
-background: #FAFAFA;
-box-shadow: 2.72246px 0px 0px 0px rgba(0, 0, 0, 0.10);
-}
+  .buy-form-label-one {
+    font-size: 14px;
+  }
 
-.buy-flag {
-  flex-shrink: 0;
+  .buy-number-two {
+    top: 20px;
+    display: flex;
+    width: 237px;
+    height: 24px;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    right: 144px;
+    top: 21px;
+  }
+
+  .buy-number {
+    font-size: 18px;
+  }
+
+  .buy-phone {
+    display: flex;
+    width: 125px;
+    padding-right: 0px;
+    align-items: center;
+    gap: 18px;
+    flex-shrink: 0;
+    align-self: stretch;
+    background: #fafafa;
+    box-shadow: 2.72246px 0px 0px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .buy-flag {
+    flex-shrink: 0;
     width: 32px;
     height: 24px;
-}
+  }
 
-.buy-p-inf {
-  width: 100%;
-}
+  .buy-p-inf {
+    width: 100%;
+  }
 
-.buy-input-comment {
-  width: 100%;
-}
+  .buy-input-comment {
+    width: 100%;
+  }
 
-.buy-ico {
-  width: 44px;
-height: 30px;
-padding: 5.625px 6.914px 5.967px 6.914px;
-justify-content: center;
-align-items: center;
-}
+  .buy-ico {
+    width: 44px;
+    height: 30px;
+    padding: 5.625px 6.914px 5.967px 6.914px;
+    justify-content: center;
+    align-items: center;
+  }
 
-.buy-form {
-  height: 680px;
-  top: 344px;
-  left: 28px;
-}
+  .buy-form {
+    height: 680px;
+    top: 344px;
+    left: 48px;
+    max-width: 513px;
+  }
 
-.buy-button-submit {
-  width: 133px;
-  height: 45px;
-  padding: 14px 40px;
-}
+  .buy-button-submit {
+    width: 133px;
+    height: 45px;
+    padding: 14px 40px;
+  }
 }
