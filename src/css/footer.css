@@ -48,6 +48,10 @@
     word-wrap: break-word;
     font-style: normal;
 }
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--color-orange);
+}
 .footer-socialmedia{
     display: flex;
     gap: 14px;
@@ -122,6 +126,7 @@
         padding-bottom: 50px;
     }
     .bar {
+        margin-top: 0;
         margin-bottom: 24px;
     }
 
