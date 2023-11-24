@@ -85,7 +85,8 @@
 }
 
 .reviews-js-pagination {
-  bottom: 0;
+  height: 13px;
+  padding-bottom: 37px;
 }
 
 .reviews-button {
@@ -136,6 +137,7 @@
   }
 
   .reviews-js-pagination {
+    padding-bottom: 55px;
   }
 
   .reviews-button {
