@@ -100,7 +100,7 @@
 }
 
 .modal-review-textarea {
-  resize: vertical;
+  resize: none;
 }
 
 .modal-review-phone .modal-review-label {
