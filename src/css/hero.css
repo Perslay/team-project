@@ -54,19 +54,21 @@
 .hero-buy:focus {
   background-color: var(--color-lightorange);
   color: var(--color-orange);
+  outline: none;
 }
 
 .hero-how {
   background: transparent;
   border: 1px solid var(--color-white);
+  transition: border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-how:hover,
 .hero-how:focus {
   border-color: var(--color-orange);
   color: var(--color-orange);
-  transition: border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-    color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 
 .hero-p {
@@ -83,14 +85,14 @@
   display: flex;
   height: 28px;
   justify-content: center;
-  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-    color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms linear, color 250ms linear;
   width: 28px;
 }
 
 .hero-scroll:hover,
 .hero-scroll:focus {
   background-color: var(--color-orange);
+  outline: none;
 }
 
 .hero-scroll:hover .hero-scroll-icon,

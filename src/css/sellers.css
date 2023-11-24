@@ -1,10 +1,13 @@
 /*--------------------------------------------------------MOBILE-----------------------------------------------*/
-@media screen and (min-width: 375px) {
+.sellers-div {
+    margin: 0 auto;
+    padding: 0 20px;
+}
 .sellers-title {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.16;
-    letter-spacing: 0.03em;
+    letter-spacing: -0.03em;
     text-align: center;
     color: rgba(17, 17, 17, 1);
     text-transform: uppercase;
@@ -17,7 +20,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 32px;
+    gap: 20px;
     padding-bottom: 20px;
 }
 .sellers-img {
@@ -25,12 +28,13 @@
 }
 .sellers-p-div-1, .sellers-p-div-2 {
     width: 306px;
+    padding-bottom: 12px;
     
 }
 .sellers-minitext-1, .sellers-minitext-2{
     font-weight: 400;
     font-size: 14px;
-    letter-spacing: 0.02em;
+    letter-spacing: -0.02em;
     line-height: 1.28;
     color: rgba(17, 17, 17, 1);
 }
@@ -67,7 +71,7 @@
     display: flex;
     justify-content: center;
 }
-}
+
 /*--------------------------------------------------------TABLET-----------------------------------------------*/
 @media screen and (min-width: 768px) {
 .mobile-sellers {
@@ -80,30 +84,35 @@
     display: none;
 }
 .sellers-div {
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 0 32px;
+    max-width: 1190px;
 }
 .sellers-title {
-    padding-bottom: 64px;
+    padding-bottom: 50px;
+    font-size: 24px;
 }
 .sellers-list {
     flex-direction: row;
     justify-content: center;
     gap: 16px;
-    padding-bottom: 31px;
+    padding-bottom: 32px;
 }
 .sellers-p-div-2 {
-    width: 407px;
+    width: 306px;
 }
 .sellers-text-button {
    display: flex; 
    justify-content: center;
    align-items: flex-start;
    padding-bottom: 72px;
-   gap: 177px;
+   gap: 240px;
 }
 .sellers-button-div {
     padding-bottom: 0px;
+}
+.sellers-button {
+    font-size: 18px;
+    padding: 14px 40px;
 }
 }
 /*--------------------------------------------------------DESKTOP-----------------------------------------------*/
@@ -120,13 +129,15 @@
 .sellers-div {
     padding-bottom: 128px;
 }
+.sellers-list {
+    padding-bottom: 32px;
+}
 .sellers-text-button {
     display: flex;
-    gap: 616px;
+    gap: 658px;
 }
 .sellers-p-div-2 {
     display: flex;
-    
 }
 .sellers-minitext-2 {
     display: flex;

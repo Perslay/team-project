@@ -71,7 +71,6 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
 .buy-now {
 position: absolute;
 width: 102px;
-height: 24px;
 top: 32px;
 left: 104px;
 color: var(--color-black);
@@ -79,7 +78,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: 1.2;
-letter-spacing: -0.6px;
+letter-spacing: -0.03em;
 text-transform: uppercase;
 }
 
@@ -213,7 +212,7 @@ font-size: 12px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.16;
-letter-spacing: -0.24px;
+letter-spacing: -0.02em;
 }
 
 .buy-inp-div {
@@ -257,7 +256,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-letter-spacing: -0.28px;
+letter-spacing: -0.02em;
 }
 
 .buy-input::placeholder {
@@ -288,7 +287,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-letter-spacing: -0.28px;
+letter-spacing: -0.02em;
 }
 
 .buy-number-two {
@@ -487,6 +486,7 @@ flex-direction: row;
 
 .buy-input {
   font-size: 18px;
+  resize: none;
 }
 
 .buy-form-label-one {
@@ -546,5 +546,13 @@ align-items: center;
 
 .buy-form {
   height: 680px;
+  top: 344px;
+  left: 28px;
+}
+
+.buy-button-submit {
+  width: 133px;
+  height: 45px;
+  padding: 14px 40px;
 }
 }
