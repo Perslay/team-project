@@ -9,13 +9,15 @@
   --color-lightorange: #fcf1e0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--color-light);
   font-family: 'Montserrat', sans-serif;
-  height: 100%;
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
 }
 
 h1,
