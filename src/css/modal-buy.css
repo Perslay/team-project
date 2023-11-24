@@ -486,6 +486,7 @@ flex-direction: row;
 
 .buy-input {
   font-size: 18px;
+  resize: none;
 }
 
 .buy-form-label-one {
@@ -546,7 +547,7 @@ align-items: center;
 .buy-form {
   height: 680px;
   top: 344px;
-  left: 48px;
+  left: 28px;
 }
 
 .buy-button-submit {
