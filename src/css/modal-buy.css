@@ -205,7 +205,7 @@
   height: 630px;
 }
 
-.buy-form-label-one {
+.buy-form-p {
   color: var(--color-black);
   font-size: 12px;
   font-style: normal;
@@ -231,6 +231,10 @@
   border-radius: 8px;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
+}
+
+.buy-phone-div {
+  padding: 10px 18px;
 }
 
 .buy-p-inf {
@@ -277,7 +281,7 @@
 
 .buy-flag {
   width: 24px;
-  height: 18px;
+  height: 24px;
   flex-shrink: 0;
 }
 
@@ -297,7 +301,7 @@
   align-items: center;
   gap: 20px;
   position: absolute;
-  right: 29px;
+  left: 106px;
   top: 10px;
 }
 
@@ -309,21 +313,9 @@
   align-self: stretch;
 }
 
-.buy-master {
-  display: flex;
+.buy-ico {
   width: 32px;
   height: 21px;
-  padding: 3.938px 5.029px 4.177px 5.029px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  border: 1px solid #fafafa;
-  background: #fafafa;
-}
-
-.buy-ico {
-  width: 21.943px;
-  height: 12.886px;
   flex-shrink: 0;
 }
 
@@ -484,12 +476,16 @@
     width: 100%;
   }
 
+  .buy-phone-div {
+    padding: 17px 24px;
+  }
+
   .buy-input {
     font-size: 18px;
     resize: none;
   }
 
-  .buy-form-label-one {
+  .buy-form-p {
     font-size: 14px;
   }
 
@@ -501,7 +497,7 @@
     align-items: center;
     gap: 20px;
     position: absolute;
-    right: 144px;
+    left: 177px;
     top: 21px;
   }
 
@@ -524,7 +520,7 @@
   .buy-flag {
     flex-shrink: 0;
     width: 32px;
-    height: 24px;
+    height: 32px;
   }
 
   .buy-p-inf {
@@ -538,7 +534,6 @@
   .buy-ico {
     width: 44px;
     height: 30px;
-    padding: 5.625px 6.914px 5.967px 6.914px;
     justify-content: center;
     align-items: center;
   }
